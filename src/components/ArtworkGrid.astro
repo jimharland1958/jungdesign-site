@@ -1,0 +1,4 @@
+---
+import ArtworkCard from './ArtworkCard.astro'; const {artworks}=Astro.props;
+---
+<div class="art-grid">{artworks.map((art,index)=><ArtworkCard art={art} index={index}/>)}</div>

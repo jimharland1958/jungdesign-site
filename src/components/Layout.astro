@@ -1,0 +1,8 @@
+---
+import Header from './Header.astro';
+import '../styles/global.css';
+import '../styles/logo.css';
+import '../styles/jungdesign.css';
+const {title='JungDesign — David Jung',description='Paintings, design, process and play by David Jung.'}=Astro.props;
+---
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width"/><meta name="description" content={description}/><meta name="theme-color" content="#e63324"/><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3"/><title>{title}</title><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><meta property="og:image" content="/images/artworks/Monday1.jpg"/></head><body><Header/><main><slot/></main><footer><a class="footer-mark" href="/" aria-label="JungDesign home"><img src="/images/jungdesign-logo.jpg" alt="JungDesign — North Star"/></a><p>David Jung — paintings, design, process, play.</p><div><a href="/contact">Make an enquiry ↗</a><br/><small>© {new Date().getFullYear()} David Jung</small></div></footer></body></html>

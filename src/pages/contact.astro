@@ -1,0 +1,5 @@
+---
+import Layout from '../components/Layout.astro'; import SectionIntro from '../components/SectionIntro.astro';
+const art=Astro.url.searchParams.get('artwork');
+---
+<Layout title="Contact — JungDesign"><SectionIntro eyebrow="Contact / Start a conversation" title="A good enquiry begins with curiosity." intro="Whether a painting caught your eye or an old-fashioned design problem needs a clear head, you’re welcome to get in touch."/><section class="contact-options"><article><b>01 / ARTWORK</b><h2>Artwork enquiries</h2><p>Ask about availability, dimensions, medium, viewing, or a particular painting.</p><a class="button" href={`mailto:jungdesign@gmail.com?subject=Artwork enquiry${art?`: ${art}`:''}`}>Email about artwork →</a></article><article><b>02 / DESIGN</b><h2>Selected project enquiries</h2><p>For thoughtful design, project perspective, or a conversation grounded in long experience.</p><a class="button blue" href="mailto:jungdesign@gmail.com?subject=Design project enquiry">Email about a project →</a></article></section><p class="contact-note"><a href="mailto:jungdesign@gmail.com">jungdesign@gmail.com</a></p></Layout>

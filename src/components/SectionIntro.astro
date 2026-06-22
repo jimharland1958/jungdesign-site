@@ -1,0 +1,4 @@
+---
+const {eyebrow='JungDesign',title,intro}=Astro.props;
+---
+<section class="section-intro"><p class="eyebrow">{eyebrow}</p><h1>{title}</h1>{intro&&<p class="lede">{intro}</p>}</section>

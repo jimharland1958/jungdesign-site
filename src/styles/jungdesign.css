@@ -1,0 +1,14 @@
+.jungdesign-film{min-height:calc(100vh - 92px);position:relative;display:grid;place-items:center;padding:5vw;background:var(--blue);overflow:hidden}
+.jungdesign-film:before{content:"";position:absolute;inset:-20%;background:repeating-linear-gradient(118deg,transparent 0 90px,rgba(238,232,218,.06) 90px 93px);transform:rotate(-5deg)}
+.film-frame{position:relative;z-index:2;width:min(540px,100%);padding:10px;background:var(--paper);border:3px solid var(--ink);box-shadow:16px 16px 0 var(--red)}
+.film-frame .instagram-media{margin:0!important;min-width:0!important;width:100%!important}
+.film-placeholder{min-height:640px;display:grid;place-items:center;position:relative;overflow:hidden;background:var(--blue);text-decoration:none}
+.film-placeholder:before,.film-placeholder:after{content:"";position:absolute;inset:auto -15% 12% -15%;height:28%;background:var(--red);transform:rotate(-8deg)}
+.film-placeholder:after{inset:8% -20% auto -20%;height:16%;background:var(--yellow);transform:rotate(12deg)}
+.film-placeholder img{position:relative;z-index:2;width:72%;max-width:310px;border:8px solid var(--ink);box-shadow:12px 12px 0 rgba(0,0,0,.45)}
+.film-placeholder span{position:absolute;z-index:3;display:grid;place-items:center;width:74px;height:74px;border-radius:50%;background:var(--paper);color:var(--red);border:3px solid var(--ink);font-size:26px;box-shadow:5px 5px 0 var(--ink)}
+.film-type{position:absolute;left:4vw;top:5vw;color:var(--paper);font-family:'Archivo Black',Impact,sans-serif;line-height:.78;letter-spacing:-.07em;transform:rotate(-3deg)}
+.film-type span{display:block;color:var(--yellow);font:800 17px 'Barlow Condensed';letter-spacing:.15em;margin-bottom:18px}.film-type b{font-size:clamp(65px,10vw,160px)}
+.film-label{position:absolute;z-index:3;right:4vw;bottom:4vw;background:var(--yellow);border:2px solid var(--ink);padding:15px 20px;box-shadow:7px 7px 0 var(--ink);transform:rotate(2deg);display:flex;flex-direction:column}
+.film-label b{font:800 16px 'Barlow Condensed';letter-spacing:.1em}.film-label span{font-size:13px}
+@media(max-width:900px){.jungdesign-film{padding:150px 6vw 110px}.film-type{top:35px}.film-type b{font-size:55px}.film-frame{box-shadow:9px 9px 0 var(--red)}.film-placeholder{min-height:520px}.film-label{right:6vw;bottom:28px;left:6vw}}

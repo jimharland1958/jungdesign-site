@@ -1,0 +1,6 @@
+---
+import Layout from '../../components/Layout.astro'; import ArtworkDetail from '../../components/ArtworkDetail.astro'; import artworks from '../../data/artworks.json';
+export function getStaticPaths(){return artworks.map((art,index)=>({params:{slug:art.slug},props:{art,index,prev:artworks[(index-1+artworks.length)%artworks.length],next:artworks[(index+1)%artworks.length]}}))}
+const {art,index,prev,next}=Astro.props;
+---
+<Layout title={`${art.title} — David Jung | Jungdesign`} description={`${art.title}, a painting by David Jung.`}><ArtworkDetail {art} {index} {prev} {next}/></Layout>
