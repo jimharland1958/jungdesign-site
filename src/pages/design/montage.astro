@@ -16,9 +16,6 @@ import projects from '../../data/projects.json';
     <section class="montage-wall" aria-label="Development project image montage">
       {projects.map((project,index)=><a class:list={["montage-tile",`tile-${index%7}`]} href={`/design/${project.slug}/`}>
         <img src={project.image} alt={project.imageAlt} loading={index<4?'eager':'lazy'} decoding="async"/>
-        <span>{project.number}</span>
-        <h2>{project.title}</h2>
-        <p>{project.visual.label}</p>
       </a>)}
     </section>
   </main>
