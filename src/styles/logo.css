@@ -99,3 +99,10 @@ header .brand img{width:100%;height:auto;display:block}
 .visual-label{background:repeating-linear-gradient(0deg,var(--paper) 0 16px,#ded7c8 16px 32px);color:var(--ink)}.visual-label b{color:var(--red);text-shadow:4px 4px 0 white}.visual-label em{color:var(--ink)}.visual-process,.visual-system,.visual-pod{background:radial-gradient(circle at 72% 32%,var(--red) 0 9%,transparent 10%),radial-gradient(circle at 24% 62%,var(--yellow) 0 14%,transparent 15%),var(--blue)}
 .visual-casing{background:linear-gradient(90deg,var(--ink) 0 18%,var(--paper) 18% 82%,var(--blue) 82%);color:var(--ink)}.visual-casing b{color:var(--red);text-shadow:4px 4px 0 var(--paper)}.visual-casing em{color:var(--ink)}
 @media(max-width:900px){.project-visual{min-height:170px}.project-visual.large{width:min(420px,82vw)}}
+
+/* Source-derived project/product images from David's existing archive PDFs. */
+.project-source-image{position:relative;margin:-6px -6px 26px;background:var(--ink);border:2px solid var(--ink);box-shadow:6px 6px 0 var(--red);overflow:hidden}
+.project-source-image img{aspect-ratio:1.36/1;object-fit:cover;object-position:top center;filter:saturate(.95) contrast(1.05)}
+.project-source-image figcaption{position:absolute;left:0;right:0;bottom:0;margin:0;padding:10px 12px;background:rgba(23,23,21,.88);color:var(--paper);font:800 13px/1 'Barlow Condensed';text-transform:uppercase;letter-spacing:.08em}
+.project-source-image:after{content:"";position:absolute;inset:10px;border:2px solid rgba(238,232,218,.55);pointer-events:none}.project-source-image.large{width:min(560px,76vw);margin:0 auto 34px;box-shadow:14px 14px 0 var(--ink);transform:rotate(-1deg)}.project-source-image.large img{aspect-ratio:1/1.32;object-fit:cover}.project-hero-card .project-source-image.large + p{background:rgba(23,23,21,.84);padding:18px;border:2px solid var(--paper);box-shadow:6px 6px 0 var(--red)}
+@media(max-width:900px){.project-source-image.large{width:min(430px,82vw)}}

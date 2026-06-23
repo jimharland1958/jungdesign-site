@@ -22,7 +22,9 @@
     "visual": {
       "kind": "venue",
       "label": "Floating yacht club / chalets / stage"
-    }
+    },
+    "image": "/images/project-sources/amex-americas-cup-village.jpg",
+    "imageAlt": "Source document image for AMEX America’s Cup Village"
   },
   {
     "slug": "air-new-zealand-terminals",
@@ -47,7 +49,9 @@
     "visual": {
       "kind": "terminal",
       "label": "Regional terminals / sales offices"
-    }
+    },
+    "image": "/images/project-sources/air-new-zealand-terminals.jpg",
+    "imageAlt": "Source document image for Air New Zealand Terminal Developments"
   },
   {
     "slug": "air-new-zealand-kiosks",
@@ -72,7 +76,9 @@
     "visual": {
       "kind": "kiosk",
       "label": "Self-service kiosk network"
-    }
+    },
+    "image": "/images/project-sources/air-new-zealand-kiosks.jpg",
+    "imageAlt": "Source document image for Air New Zealand Self-Service Kiosks"
   },
   {
     "slug": "bnz-anz-reimaging",
@@ -97,7 +103,9 @@
     "visual": {
       "kind": "branch",
       "label": "Bank interiors / regional rollout"
-    }
+    },
+    "image": "/images/project-sources/bnz-anz-reimaging.jpg",
+    "imageAlt": "Source document image for BNZ / ANZ Bank Reimaging"
   },
   {
     "slug": "telstra-australia-rollout",
@@ -122,7 +130,9 @@
     "visual": {
       "kind": "store",
       "label": "Live-phone retail stores"
-    }
+    },
+    "image": "/images/project-sources/telstra-australia-rollout.jpg",
+    "imageAlt": "Source document image for Telstra Australia Retail Rollout"
   },
   {
     "slug": "five-litre-measuring-jug",
@@ -147,7 +157,9 @@
     "visual": {
       "kind": "product",
       "label": "5 litre jug / raised calibration"
-    }
+    },
+    "image": "/images/project-sources/five-litre-measuring-jug.jpg",
+    "imageAlt": "Source document image for 5 Litre Measuring Jug"
   },
   {
     "slug": "eyeque-airport-security-system",
@@ -172,7 +184,9 @@
     "visual": {
       "kind": "system",
       "label": "AI security concept"
-    }
+    },
+    "image": "/images/project-sources/eyeque-airport-security-system.jpg",
+    "imageAlt": "Source document image for EYEQue Airport Security System"
   },
   {
     "slug": "hospital-labelling-system",
@@ -197,7 +211,9 @@
     "visual": {
       "kind": "label",
       "label": "Drug-bag label dispenser"
-    }
+    },
+    "image": "/images/project-sources/hospital-labelling-system.jpg",
+    "imageAlt": "Source document image for Hospital Drug-Bag Labelling System"
   },
   {
     "slug": "egg-splitter-system",
@@ -222,7 +238,9 @@
     "visual": {
       "kind": "process",
       "label": "No-touch egg handling"
-    }
+    },
+    "image": "/images/project-sources/egg-splitter-system.jpg",
+    "imageAlt": "Source document image for The Egg Splitter System (TESS)"
   },
   {
     "slug": "ericsson-phone-system-casing",
@@ -247,7 +265,9 @@
     "visual": {
       "kind": "casing",
       "label": "Pole-mounted splitter casing"
-    }
+    },
+    "image": "/images/project-sources/ericsson-phone-system-casing.jpg",
+    "imageAlt": "Source document image for Ericsson Phone System Casing"
   },
   {
     "slug": "vps-vine-pod-system",
@@ -272,6 +292,8 @@
     "visual": {
       "kind": "pod",
       "label": "Precise herbicide delivery"
-    }
+    },
+    "image": "/images/project-sources/vps-vine-pod-system.jpg",
+    "imageAlt": "Source document image for VPS — Vine Pod System"
   }
 ]

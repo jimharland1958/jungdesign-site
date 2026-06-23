@@ -41,10 +41,7 @@ const pillars = [
     </div>
     <div class="project-feature-grid">
       {featured.map((project)=><a class="project-tile feature" href={`/design/${project.slug}/`}>
-        <div class:list={["project-visual",`visual-${project.visual.kind}`]} aria-hidden="true">
-          <b>{project.number}</b>
-          <em>{project.visual.label}</em>
-        </div>
+        <figure class="project-source-image"><img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async"/><figcaption>{project.visual.label}</figcaption></figure>
         <span>{project.number} / {project.type}</span>
         <h3>{project.title}</h3>
         <p>{project.summary}</p>
@@ -61,10 +58,7 @@ const pillars = [
     </div>
     <div class="project-index-grid compact">
       {productWork.map((project)=><a class="project-tile text-only" href={`/design/${project.slug}/`}>
-        <div class:list={["project-visual",`visual-${project.visual.kind}`]} aria-hidden="true">
-          <b>{project.number}</b>
-          <em>{project.visual.label}</em>
-        </div>
+        <figure class="project-source-image"><img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async"/><figcaption>{project.visual.label}</figcaption></figure>
         <span>{project.number} / {project.period}</span>
         <h3>{project.title}</h3>
         <p>{project.problem}</p>
