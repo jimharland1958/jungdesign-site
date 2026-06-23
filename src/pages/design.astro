@@ -3,38 +3,74 @@ import Layout from '../components/Layout.astro';
 import SectionIntro from '../components/SectionIntro.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import projects from '../data/projects.json';
+
+const featured = projects.slice(0, 5);
+const productWork = projects.slice(5);
+const pillars = [
+  ['Designed objects', 'Commercial products and mechanisms resolved through use, manufacture, legibility and durability.'],
+  ['Development systems', 'Ideas carried past sketch stage into testable, buildable propositions with real-world constraints.'],
+  ['Project management', 'Budgets, programmes, contractors, clients and deadlines held together without losing the design intent.'],
+  ['JungDesign', 'A professional practice built on noticing what is wrong, clarifying what is needed, and making the answer workable.']
+];
 ---
-<Layout title="Development — JungDesign">
-  <SectionIntro eyebrow="Development / Foundation" title="Design, before and beneath the paint" intro="For roughly six decades, David Jung worked as a professional designer and project manager. This archive gathers the objects, systems and decisions behind the JungDesign name."/>
-  <section class="archive-board">
-    <div class="archive-feature buzzy-feature">
-      <span class="vertical">JUNGDESIGN / DESIGNED OBJECTS</span>
-      <img src="/images/artworks/BuzzyBee1.jpg" alt="Blue technical drawing of a Buzzy Bee pull toy"/>
-      <p>Buzzy Bee — an iconic object resolved through proportion, mechanism and character.</p>
-      <a class="button light" href="/paintings/buzzy-bee/">View artwork →</a>
-    </div>
-    <div class="archive-list">
-      <a class="archive-link" href="/paintings/buzzy-bee/"><article><b>01</b><h2>Designed Objects</h2><p>Objects considered from first sketch to final use: practical, legible and made with care.</p><i>View Buzzy Bee →</i></article></a>
-      <a class="archive-link" href="/process"><article><b>02</b><h2>Process</h2><p>Briefs, drawings, prototypes and the useful friction between an idea and its making.</p><i>Open studio notes →</i></article></a>
-      <a class="archive-link" href="#commercial-projects"><article><b>03</b><h2>Commercial Projects</h2><p>Making complicated work coherent—aligning people, material, time and purpose.</p><i>View projects →</i></article></a>
-      <a class="archive-link" href="/jungdesign"><article><b>04</b><h2>JungDesign</h2><p>A name spanning professional practice and the restless curiosity that now drives the studio.</p><i>View the film →</i></article></a>
+<Layout title="Development — JungDesign" description="David Jung’s JungDesign development, design-management and project-management work.">
+  <SectionIntro eyebrow="Development / Foundation" title="Sixty years of making ideas workable" intro="Before painting became the main daily practice, JungDesign was a working design and project-management practice: products, environments, systems, rollouts and commercial problem-solving."/>
+
+  <section class="dev-manifesto">
+    <div class="dev-manifesto-mark">JD</div>
+    <div>
+      <span class="eyebrow">Professional spine</span>
+      <p>David Jung’s development work is not a side note to the paintings. It is the discipline underneath them: clear composition, practical judgement, careful sequencing, a feel for materials and a habit of turning vague problems into usable form.</p>
+      <p>The archive below is deliberately text-first. It is not a dump of scanned documents; it is a curated record of the kind of commercial work JungDesign has led.</p>
     </div>
   </section>
+
+  <section class="career-pillars" aria-label="JungDesign development capabilities">
+    {pillars.map(([title,copy],index)=><article>
+      <b>{String(index+1).padStart(2,'0')}</b>
+      <h2>{title}</h2>
+      <p>{copy}</p>
+    </article>)}
+  </section>
+
   <section class="project-index" id="commercial-projects">
     <div class="project-index-intro">
-      <span class="eyebrow">Development projects</span>
-      <h2>Commercial work, product systems, project delivery.</h2>
-      <p>These archive entries turn David’s project documents into accessible case studies. More projects can now be added by extending the project catalogue.</p>
+      <span class="eyebrow">Commercial projects</span>
+      <h2>Environments, rollouts, systems and objects.</h2>
+      <p>These case studies are condensed from David’s project notes into a readable professional archive. They give the JungDesign name weight without distracting from the painting galleries.</p>
     </div>
-    <div class="project-index-grid">
-      {projects.map((project)=><a class="project-tile text-only" href={`/design/${project.slug}/`}>
+    <div class="project-feature-grid">
+      {featured.map((project)=><a class="project-tile feature" href={`/design/${project.slug}/`}>
         <span>{project.number} / {project.type}</span>
         <h3>{project.title}</h3>
         <p>{project.summary}</p>
+        <i>Read case study →</i>
+      </a>)}
+    </div>
+  </section>
+
+  <section class="project-index product-index">
+    <div class="project-index-intro">
+      <span class="eyebrow">Product development</span>
+      <h2>Useful things, safer systems, better mechanisms.</h2>
+      <p>Across product and system work, the pattern is consistent: define the friction, make the use clearer, and develop a response that can be manufactured, installed, trialled or operated.</p>
+    </div>
+    <div class="project-index-grid compact">
+      {productWork.map((project)=><a class="project-tile text-only" href={`/design/${project.slug}/`}>
+        <span>{project.number} / {project.period}</span>
+        <h3>{project.title}</h3>
+        <p>{project.problem}</p>
         <i>Open project →</i>
       </a>)}
     </div>
   </section>
+
+  <section class="career-spine">
+    <span class="eyebrow">How to read this archive</span>
+    <h2>Design here means responsibility.</h2>
+    <p>Not just styling. Not just management. The recurring JungDesign move is to take responsibility for the whole chain: the object, the setting, the people using it, the money available, the deadline approaching and the detail that must still be right.</p>
+  </section>
+
   <blockquote>“The paintings don’t leave design behind. They make its instincts visible.”</blockquote>
   <ContactCTA title="A design conversation?" copy="David welcomes selected design and project enquiries alongside questions about the paintings."/>
 </Layout>

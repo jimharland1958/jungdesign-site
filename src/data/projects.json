@@ -1,100 +1,167 @@
 [
   {
-    "slug": "vindpod",
-    "title": "VindPod",
+    "slug": "amex-americas-cup-village",
+    "title": "AMEX America’s Cup Village",
     "number": "01",
-    "type": "Design & development project",
-    "status": "Archive material ingested from supplied PDF",
-    "summary": "VindPod is presented here as a JungDesign development project: an example of David Jung’s long-practised ability to move from idea and problem-framing into a designed proposition that can be explained, reviewed and refined.",
-    "note": "The supplied PDF is a scanned six-page document, so the original pages are preserved as project plates while the editable web copy can be refined as more information arrives.",
-    "disciplines": [
-      "product thinking",
-      "concept development",
-      "communication design",
-      "project presentation"
-    ],
-    "plates": []
+    "type": "Commercial project delivery",
+    "period": "1998–2000",
+    "client": "AMEX Village hospitality providers",
+    "role": "Designer and project lead for hospitality venues across the village.",
+    "summary": "A compressed, high-visibility programme delivering hospitality environments for the America’s Cup Village: floating yacht club, corporate chalets, boat-party moorings, public canopy, bar, entertainment stage and seating.",
+    "problem": "Create a series of distinct hospitality venues across five village locations, with fixed budget, public scrutiny and a hard event deadline.",
+    "response": "David coordinated concept, design development, manufacture and delivery, working with RCP Napier and project partners to turn multiple venue types into buildable, operational environments.",
+    "outcome": "The capped programme was delivered within the stated budget, with the final venue opened a week early.",
+    "disciplines": ["hospitality environments", "event infrastructure", "budget control", "programme delivery", "design management"],
+    "note": "A good example of JungDesign joining design judgement with pragmatic project delivery."
   },
   {
-    "slug": "project-management",
-    "title": "Project Management",
+    "slug": "air-new-zealand-terminals",
+    "title": "Air New Zealand Terminal Developments",
     "number": "02",
-    "type": "Commercial projects",
-    "status": "Archive material ingested from supplied DOCX and PDF",
-    "summary": "David’s project-management work sits at the practical centre of JungDesign: meeting a client’s expectations, protecting budget and programme, and adding design-management judgement so complex work stays coherent.",
-    "note": "Source text was extracted from the supplied ProjectManagement1.docx. The companion Projects1.pdf is scanned and has been preserved as project plates.",
-    "disciplines": [
-      "client management",
-      "budget control",
-      "programme delivery",
-      "design management",
-      "national and international roll-outs"
-    ],
-    "caseStudies": [
-      {
-        "title": "AMEX America’s Cup Village, 1998–2000",
-        "text": "Contracted to design and build hospitality venues across five village locations, including a floating AMEX Yacht Club, corporate chalets, boat-party moorings, public canopy and bar, and entertainment stage. The capped $5m programme was delivered with the final venue opened a week early."
-      },
-      {
-        "title": "Air New Zealand terminal developments",
-        "text": "Managed North Island regional front-of-house terminal rebuilds and Air New Zealand terminal/sales-office reimaging work across Australia, Japan, Singapore and Taiwan, including new-destination delivery in Taiwan under a three-month design/build programme."
-      },
-      {
-        "title": "Air New Zealand self-service kiosks",
-        "text": "Surveyed 25 New Zealand airports to support end-to-end self-service ticketing, then later managed replacement of ageing kiosks with new French-built units across an 18-month, approximately $4m programme."
-      },
-      {
-        "title": "BNZ / ANZ bank reimaging",
-        "text": "Rolled out BNZ interiors across the East Coast of the North Island, then extended the work into ANZ/National Bank relocation and reimaging programmes across the same region."
-      },
-      {
-        "title": "Telstra Australia",
-        "text": "Reviewed and value-managed Telstra retail interior concepts, reducing budget pressure before leading a team of project managers through the rollout of around 200 live-phone retail stores across Australia."
-      }
-    ],
-    "plates": []
+    "type": "Aviation environments",
+    "period": "2016 onward",
+    "client": "Air New Zealand",
+    "role": "Project manager and design-management lead for terminal and sales-office reimaging work.",
+    "summary": "Regional front-of-house terminal rebuilds in New Zealand, plus international terminal and sales-office reimaging work in Australia, Japan, Singapore and Taiwan.",
+    "problem": "Airline spaces have to work hard: brand clarity, passenger movement, security, contractors, live operations and immovable opening dates all converge.",
+    "response": "David managed design/build programmes, site coordination and contractor delivery, including Taiwan as a new Air New Zealand destination with a three-month design/build window before first flight.",
+    "outcome": "A sequence of regional and international aviation environments delivered with programme discipline and an understanding of operational detail.",
+    "disciplines": ["aviation", "interior reimaging", "contractor coordination", "live environments", "international delivery"],
+    "note": "This work shows the professional foundation behind the paintings: structure, sequencing, detail and judgement under pressure."
   },
   {
-    "slug": "product-development",
-    "title": "Product Development",
+    "slug": "air-new-zealand-kiosks",
+    "title": "Air New Zealand Self-Service Kiosks",
     "number": "03",
-    "type": "Product design & development",
-    "status": "Archive material ingested from supplied DOCX and PDF",
-    "summary": "JungDesign’s product-development history shows David working from practical problems toward commercially produced objects and systems: measuring, dispensing, protecting, installing, reducing risk and making use easier.",
-    "note": "Source text was extracted from ProductDevelopment1.docx. The companion Products2.pdf is scanned and has been preserved as project plates.",
-    "disciplines": [
-      "industrial design",
-      "commercial product development",
-      "problem definition",
-      "prototyping",
-      "manufacture liaison"
-    ],
-    "caseStudies": [
-      {
-        "title": "5 litre measuring jug",
-        "text": "Developed for Peak Products in 1986 with attention to stackability for export, raised calibration for readability and dual-spout pourability for dry and wet contents. The product has remained in production for an international market."
-      },
-      {
-        "title": "EYEQue airport security system",
-        "text": "A proposed AI-enabled front-of-house airport security system developed with Fingermark Global after David identified a security-system fault during Air New Zealand terminal work. The system was developed, trialled and tested over approximately 18 months."
-      },
-      {
-        "title": "Hospital drug-bag labelling system",
-        "text": "A quick, accurate labelling concept for DHB anaesthetists, developed to reduce waste and improve legibility when opened drug bags lost their original identification during surgical routines."
-      },
-      {
-        "title": "The Egg Splitter System (TESS)",
-        "text": "Created with McDonald’s New Zealand and Australia to reduce salmonella risk by allowing eggs to move through restaurant handling and processing without staff touching the shell."
-      },
-      {
-        "title": "Ericsson phone system casing",
-        "text": "Designed a casing for Ericsson’s phone splitter system for dense lower-economic South Pacific communities, enabling main-line connection and multiple sub-lines from standard wooden power poles."
-      },
-      {
-        "title": "VPS — Vine Pod System",
-        "text": "A work-in-progress JungDesign concept for safe, precise herbicide delivery to pest vines, developed with interest from WWF New Zealand, Auckland Council biodiversity teams and Unitec."
-      }
-    ],
-    "plates": []
+    "type": "Service system rollout",
+    "period": "2008 and later replacement programme",
+    "client": "Air New Zealand",
+    "role": "Survey, rollout and replacement project management.",
+    "summary": "A national airport survey and installation programme supporting early self-service ticketing kiosks, followed years later by a replacement programme for ageing units.",
+    "problem": "Self-service infrastructure only works if the entire environment supports it: airport layouts, passenger flow, services, installation conditions and maintenance expectations.",
+    "response": "David surveyed 25 airports across New Zealand to support end-to-end implementation, then later managed replacement of ageing kiosks with new French-built units.",
+    "outcome": "A practical technology rollout managed across a dispersed national network, with approximately $4m later replacement programme over 18 months.",
+    "disciplines": ["service design", "airport surveys", "technology rollout", "installation management", "national programme"],
+    "note": "A systems project rather than a single object: many sites, one coherent passenger experience."
+  },
+  {
+    "slug": "bnz-anz-reimaging",
+    "title": "BNZ / ANZ Bank Reimaging",
+    "number": "04",
+    "type": "Retail and branch rollout",
+    "period": "2010–2011 and following extension",
+    "client": "BNZ / ANZ via RCP",
+    "role": "Regional project manager for branch interior rollouts and relocations.",
+    "summary": "Branch interior reimaging across the East Coast of the North Island, followed by ANZ relocation and reimaging work into newly acquired National Bank locations.",
+    "problem": "Bank interiors require careful staging: customer access, brand consistency, compliance, contractors, budgets and repeated delivery across many locations.",
+    "response": "David established a Tauranga base and managed approximately 35 BNZ interiors, then extended the same discipline to ANZ/National Bank relocations across the region.",
+    "outcome": "A sustained multi-site rollout programme delivered through repeatable process and local project control.",
+    "disciplines": ["retail interiors", "banking environments", "regional rollout", "site management", "brand implementation"],
+    "note": "Professional design work often lives in repeatability: making the next site as resolved as the first."
+  },
+  {
+    "slug": "telstra-australia-rollout",
+    "title": "Telstra Australia Retail Rollout",
+    "number": "05",
+    "type": "Retail rollout / value management",
+    "period": "2009–2010",
+    "client": "Telstra Australia",
+    "role": "Senior project manager and design review lead.",
+    "summary": "A national retail programme for live-mode telco stores across Australia, beginning with cost review and moving into large-team rollout management.",
+    "problem": "The proposed store interior needed to support live phones, customer interaction and national consistency, while reducing the original fitout budget.",
+    "response": "David reviewed the interior design, identified cost reductions, then managed a team of six project managers through rollout of around 200 stores.",
+    "outcome": "The initial store budget was reduced from about $500k to $425k, followed by broad implementation across Australia.",
+    "disciplines": ["retail design", "value engineering", "team leadership", "national rollout", "live product display"],
+    "note": "A case where design intelligence means making an idea more buildable, repeatable and affordable."
+  },
+  {
+    "slug": "five-litre-measuring-jug",
+    "title": "5 Litre Measuring Jug",
+    "number": "06",
+    "type": "Industrial product development",
+    "period": "1986 onward",
+    "client": "Peak Products",
+    "role": "Industrial designer for a commercially produced measuring jug.",
+    "summary": "A long-lived commercial measuring jug designed around export stackability, raised calibration for readability, and dual-spout pourability for wet and dry contents.",
+    "problem": "A utilitarian product needed to be easier to read, easier to pour, efficient to ship and robust enough for commercial use.",
+    "response": "David resolved the object through practical industrial-design decisions: stack form, calibration, handling and pour behaviour.",
+    "outcome": "The product remained in production for an international market and has sold in substantial numbers over its life.",
+    "disciplines": ["industrial design", "commercial product", "ergonomics", "export stackability", "manufacture"],
+    "note": "Proof that modest objects can carry very serious design thinking."
+  },
+  {
+    "slug": "eyeque-airport-security-system",
+    "title": "EYEQue Airport Security System",
+    "number": "07",
+    "type": "AI-enabled service concept",
+    "period": "2018 onward",
+    "client": "Developed with Fingermark Global following Air New Zealand terminal work",
+    "role": "Problem identifier, briefer and development collaborator.",
+    "summary": "A proposed AI-enabled front-of-house security system developed after David identified a fault in existing airport terminal security processes.",
+    "problem": "A front-of-house airport security weakness suggested the need for a smarter, more systematic detection and response model.",
+    "response": "David briefed Fingermark Global and worked with their technical team over roughly 18 months through development, trials and testing.",
+    "outcome": "The system proved effective in testing, though Air New Zealand ultimately chose not to proceed because of ongoing running costs.",
+    "disciplines": ["problem framing", "AI concept", "aviation security", "technical briefing", "prototype testing"],
+    "note": "Not every strong project becomes a market adoption story; some prove the thinking, the risk and the business threshold."
+  },
+  {
+    "slug": "hospital-labelling-system",
+    "title": "Hospital Drug-Bag Labelling System",
+    "number": "08",
+    "type": "Medical workflow product concept",
+    "period": "Date to be confirmed",
+    "client": "Independent DHB anaesthetists",
+    "role": "Concept designer and manufacture coordinator.",
+    "summary": "A quick, accurate labelling system for opened drug bags used in hospital surgical routines, designed to reduce waste and improve legibility.",
+    "problem": "Once opened, drug bags could lose their original identification. Staff were left handwriting labels and taping them on, creating poor legibility, weak adhesion and unnecessary waste of expensive partially used drugs.",
+    "response": "David developed a pre-printed label dispensing concept, created the drawings and oversaw manufacture on behalf of the client team.",
+    "outcome": "A focused workflow problem was translated into a simple product system: faster, clearer and more reliable labelling.",
+    "disciplines": ["workflow design", "medical support system", "labelling", "product concept", "manufacture liaison"],
+    "note": "JungDesign’s sweet spot: notice the friction, then make the fix legible and usable."
+  },
+  {
+    "slug": "egg-splitter-system",
+    "title": "The Egg Splitter System (TESS)",
+    "number": "09",
+    "type": "Food safety product system",
+    "period": "From 2000, developed over several years",
+    "client": "McDonald’s New Zealand and Australia divisions",
+    "role": "Product-system developer working with fast-food operational requirements.",
+    "summary": "A system developed to reduce salmonella risk by allowing eggs to move through restaurant handling and processing without staff touching the shell.",
+    "problem": "In high-volume food service, egg-shell contamination risk is amplified by repetition. McDonald’s Australia alone handled tens of millions of eggs per year.",
+    "response": "David developed a system enabling eggs to be delivered to and processed through a restaurant without direct shell contact by staff.",
+    "outcome": "A product-system response to operational food-safety risk, developed with major commercial users over a multi-year period.",
+    "disciplines": ["food safety", "product system", "risk reduction", "commercial operations", "process design"],
+    "note": "The project sits between object design and operational design: a tool, a process and a risk-control idea."
+  },
+  {
+    "slug": "ericsson-phone-system-casing",
+    "title": "Ericsson Phone System Casing",
+    "number": "10",
+    "type": "Telecommunications product casing",
+    "period": "Date to be confirmed",
+    "client": "Ericsson International via New Zealand agent",
+    "role": "Industrial designer for a splitter-system housing.",
+    "summary": "A casing developed for Ericsson’s phone splitter system for high-density, lower-economic regions across the South Pacific.",
+    "problem": "The system needed to be installable on standard wooden power poles and support one main line feeding multiple sub-lines to local users.",
+    "response": "David designed the casing around installation practicality, environmental exposure and the infrastructure conditions of suburban communities.",
+    "outcome": "A functional telecommunications housing that supported more efficient local network connection without dedicated additional pole infrastructure.",
+    "disciplines": ["telecommunications", "industrial casing", "installation design", "infrastructure", "South Pacific deployment"],
+    "note": "A design problem defined as much by context and installation as by the object itself."
+  },
+  {
+    "slug": "vps-vine-pod-system",
+    "title": "VPS — Vine Pod System",
+    "number": "11",
+    "type": "Environmental product system",
+    "period": "Work in progress",
+    "client": "JungDesign concept with interested parties including WWF New Zealand, Auckland Council biodiversity teams and Unitec",
+    "role": "Concept originator and product-development lead.",
+    "summary": "A work-in-progress system for precise, safe delivery of herbicide to pest vines damaging New Zealand native flora and fauna.",
+    "problem": "Pest vines require effective treatment, but herbicide use brings risks of wastage, environmental fouling and human contact.",
+    "response": "David developed the Vine Pod concept as a delivery system for predetermined, precise herbicide volumes applied to the vine with minimal waste and reduced operator exposure.",
+    "outcome": "A current development project that carries JungDesign’s product-system thinking into biodiversity protection.",
+    "disciplines": ["environmental product", "biodiversity", "herbicide delivery", "safety", "concept development"],
+    "note": "This is where David’s design-development practice remains active: practical, ecological and still looking for the better mechanism."
   }
 ]

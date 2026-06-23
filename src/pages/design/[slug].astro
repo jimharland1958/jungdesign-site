@@ -7,50 +7,59 @@ export function getStaticPaths(){
 }
 
 const {project}=Astro.props;
+const next = projects[(projects.findIndex((item)=>item.slug===project.slug)+1)%projects.length];
+const previous = projects[(projects.findIndex((item)=>item.slug===project.slug)-1+projects.length)%projects.length];
 ---
-<Layout title={`${project.title} — Development — JungDesign`} description={`${project.title}, a JungDesign design and development project by David Jung.`}>
-  <main class="project-page">
+<Layout title={`${project.title} — Development — JungDesign`} description={project.summary}>
+  <main class="project-page editorial-project">
     <section class="project-hero">
       <div class="project-hero-copy">
-        <span class="eyebrow">{project.type}</span>
+        <span class="eyebrow">{project.type} / {project.period}</span>
         <h1>{project.title}</h1>
         <p class="lede">{project.summary}</p>
-        <dl>
-          <div><dt>Status</dt><dd>{project.status}</dd></div>
-          <div><dt>Disciplines</dt><dd>{project.disciplines.join(' / ')}</dd></div>
-        </dl>
-        <div class="actions">
-          <a class="button" href="/design/">Back to Development →</a>
-        </div>
       </div>
       <div class="project-hero-image project-hero-card">
-        <span class="vertical">JUNGDESIGN / PROJECT {project.number}</span>
+        <span class="vertical">JUNGDESIGN / CASE {project.number}</span>
         <strong>{project.number}</strong>
-        <p>{project.type}</p>
+        <p>{project.role}</p>
       </div>
     </section>
+
+    <section class="project-facts">
+      <dl>
+        <div><dt>Client / context</dt><dd>{project.client}</dd></div>
+        <div><dt>David’s role</dt><dd>{project.role}</dd></div>
+        <div><dt>Disciplines</dt><dd>{project.disciplines.join(' / ')}</dd></div>
+      </dl>
+    </section>
+
+    <section class="case-story">
+      <article>
+        <b>01</b>
+        <h2>Problem</h2>
+        <p>{project.problem}</p>
+      </article>
+      <article>
+        <b>02</b>
+        <h2>Response</h2>
+        <p>{project.response}</p>
+      </article>
+      <article>
+        <b>03</b>
+        <h2>Outcome</h2>
+        <p>{project.outcome}</p>
+      </article>
+    </section>
+
     <section class="project-note">
       <b>Archive note</b>
       <p>{project.note}</p>
     </section>
-    {project.caseStudies&&<section class="case-studies">
-      <div class="case-studies-intro">
-        <span class="eyebrow">Selected examples</span>
-        <h2>What this work involved</h2>
-      </div>
-      <div class="case-study-list">
-        {project.caseStudies.map((item,index)=><article>
-          <b>{String(index+1).padStart(2,'0')}</b>
-          <h3>{item.title}</h3>
-          <p>{item.text}</p>
-        </article>)}
-      </div>
-    </section>}
-    {project.plates?.length>0&&<section class="project-plates" aria-label={`${project.title} project document pages`}>
-      {project.plates.map((plate,index)=><figure>
-        <img src={plate} alt={`${project.title} project document page ${index+1}`} loading={index<2?'eager':'lazy'} decoding="async"/>
-        <figcaption>{String(index+1).padStart(2,'0')} / supplied project document</figcaption>
-      </figure>)}
-    </section>}
+
+    <nav class="work-nav" aria-label="Development project navigation">
+      <a href={`/design/${previous.slug}/`}>← {previous.title}</a>
+      <a href="/design/">Development index</a>
+      <a href={`/design/${next.slug}/`}>{next.title} →</a>
+    </nav>
   </main>
 </Layout>
