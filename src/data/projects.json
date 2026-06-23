@@ -11,8 +11,18 @@
     "problem": "Create a series of distinct hospitality venues across five village locations, with fixed budget, public scrutiny and a hard event deadline.",
     "response": "David coordinated concept, design development, manufacture and delivery, working with RCP Napier and project partners to turn multiple venue types into buildable, operational environments.",
     "outcome": "The capped programme was delivered within the stated budget, with the final venue opened a week early.",
-    "disciplines": ["hospitality environments", "event infrastructure", "budget control", "programme delivery", "design management"],
-    "note": "A good example of JungDesign joining design judgement with pragmatic project delivery."
+    "disciplines": [
+      "hospitality environments",
+      "event infrastructure",
+      "budget control",
+      "programme delivery",
+      "design management"
+    ],
+    "note": "A good example of JungDesign joining design judgement with pragmatic project delivery.",
+    "visual": {
+      "kind": "venue",
+      "label": "Floating yacht club / chalets / stage"
+    }
   },
   {
     "slug": "air-new-zealand-terminals",
@@ -26,8 +36,18 @@
     "problem": "Airline spaces have to work hard: brand clarity, passenger movement, security, contractors, live operations and immovable opening dates all converge.",
     "response": "David managed design/build programmes, site coordination and contractor delivery, including Taiwan as a new Air New Zealand destination with a three-month design/build window before first flight.",
     "outcome": "A sequence of regional and international aviation environments delivered with programme discipline and an understanding of operational detail.",
-    "disciplines": ["aviation", "interior reimaging", "contractor coordination", "live environments", "international delivery"],
-    "note": "This work shows the professional foundation behind the paintings: structure, sequencing, detail and judgement under pressure."
+    "disciplines": [
+      "aviation",
+      "interior reimaging",
+      "contractor coordination",
+      "live environments",
+      "international delivery"
+    ],
+    "note": "This work shows the professional foundation behind the paintings: structure, sequencing, detail and judgement under pressure.",
+    "visual": {
+      "kind": "terminal",
+      "label": "Regional terminals / sales offices"
+    }
   },
   {
     "slug": "air-new-zealand-kiosks",
@@ -41,8 +61,18 @@
     "problem": "Self-service infrastructure only works if the entire environment supports it: airport layouts, passenger flow, services, installation conditions and maintenance expectations.",
     "response": "David surveyed 25 airports across New Zealand to support end-to-end implementation, then later managed replacement of ageing kiosks with new French-built units.",
     "outcome": "A practical technology rollout managed across a dispersed national network, with approximately $4m later replacement programme over 18 months.",
-    "disciplines": ["service design", "airport surveys", "technology rollout", "installation management", "national programme"],
-    "note": "A systems project rather than a single object: many sites, one coherent passenger experience."
+    "disciplines": [
+      "service design",
+      "airport surveys",
+      "technology rollout",
+      "installation management",
+      "national programme"
+    ],
+    "note": "A systems project rather than a single object: many sites, one coherent passenger experience.",
+    "visual": {
+      "kind": "kiosk",
+      "label": "Self-service kiosk network"
+    }
   },
   {
     "slug": "bnz-anz-reimaging",
@@ -56,8 +86,18 @@
     "problem": "Bank interiors require careful staging: customer access, brand consistency, compliance, contractors, budgets and repeated delivery across many locations.",
     "response": "David established a Tauranga base and managed approximately 35 BNZ interiors, then extended the same discipline to ANZ/National Bank relocations across the region.",
     "outcome": "A sustained multi-site rollout programme delivered through repeatable process and local project control.",
-    "disciplines": ["retail interiors", "banking environments", "regional rollout", "site management", "brand implementation"],
-    "note": "Professional design work often lives in repeatability: making the next site as resolved as the first."
+    "disciplines": [
+      "retail interiors",
+      "banking environments",
+      "regional rollout",
+      "site management",
+      "brand implementation"
+    ],
+    "note": "Professional design work often lives in repeatability: making the next site as resolved as the first.",
+    "visual": {
+      "kind": "branch",
+      "label": "Bank interiors / regional rollout"
+    }
   },
   {
     "slug": "telstra-australia-rollout",
@@ -71,8 +111,18 @@
     "problem": "The proposed store interior needed to support live phones, customer interaction and national consistency, while reducing the original fitout budget.",
     "response": "David reviewed the interior design, identified cost reductions, then managed a team of six project managers through rollout of around 200 stores.",
     "outcome": "The initial store budget was reduced from about $500k to $425k, followed by broad implementation across Australia.",
-    "disciplines": ["retail design", "value engineering", "team leadership", "national rollout", "live product display"],
-    "note": "A case where design intelligence means making an idea more buildable, repeatable and affordable."
+    "disciplines": [
+      "retail design",
+      "value engineering",
+      "team leadership",
+      "national rollout",
+      "live product display"
+    ],
+    "note": "A case where design intelligence means making an idea more buildable, repeatable and affordable.",
+    "visual": {
+      "kind": "store",
+      "label": "Live-phone retail stores"
+    }
   },
   {
     "slug": "five-litre-measuring-jug",
@@ -86,8 +136,18 @@
     "problem": "A utilitarian product needed to be easier to read, easier to pour, efficient to ship and robust enough for commercial use.",
     "response": "David resolved the object through practical industrial-design decisions: stack form, calibration, handling and pour behaviour.",
     "outcome": "The product remained in production for an international market and has sold in substantial numbers over its life.",
-    "disciplines": ["industrial design", "commercial product", "ergonomics", "export stackability", "manufacture"],
-    "note": "Proof that modest objects can carry very serious design thinking."
+    "disciplines": [
+      "industrial design",
+      "commercial product",
+      "ergonomics",
+      "export stackability",
+      "manufacture"
+    ],
+    "note": "Proof that modest objects can carry very serious design thinking.",
+    "visual": {
+      "kind": "product",
+      "label": "5 litre jug / raised calibration"
+    }
   },
   {
     "slug": "eyeque-airport-security-system",
@@ -101,8 +161,18 @@
     "problem": "A front-of-house airport security weakness suggested the need for a smarter, more systematic detection and response model.",
     "response": "David briefed Fingermark Global and worked with their technical team over roughly 18 months through development, trials and testing.",
     "outcome": "The system proved effective in testing, though Air New Zealand ultimately chose not to proceed because of ongoing running costs.",
-    "disciplines": ["problem framing", "AI concept", "aviation security", "technical briefing", "prototype testing"],
-    "note": "Not every strong project becomes a market adoption story; some prove the thinking, the risk and the business threshold."
+    "disciplines": [
+      "problem framing",
+      "AI concept",
+      "aviation security",
+      "technical briefing",
+      "prototype testing"
+    ],
+    "note": "Not every strong project becomes a market adoption story; some prove the thinking, the risk and the business threshold.",
+    "visual": {
+      "kind": "system",
+      "label": "AI security concept"
+    }
   },
   {
     "slug": "hospital-labelling-system",
@@ -116,8 +186,18 @@
     "problem": "Once opened, drug bags could lose their original identification. Staff were left handwriting labels and taping them on, creating poor legibility, weak adhesion and unnecessary waste of expensive partially used drugs.",
     "response": "David developed a pre-printed label dispensing concept, created the drawings and oversaw manufacture on behalf of the client team.",
     "outcome": "A focused workflow problem was translated into a simple product system: faster, clearer and more reliable labelling.",
-    "disciplines": ["workflow design", "medical support system", "labelling", "product concept", "manufacture liaison"],
-    "note": "JungDesign’s sweet spot: notice the friction, then make the fix legible and usable."
+    "disciplines": [
+      "workflow design",
+      "medical support system",
+      "labelling",
+      "product concept",
+      "manufacture liaison"
+    ],
+    "note": "JungDesign’s sweet spot: notice the friction, then make the fix legible and usable.",
+    "visual": {
+      "kind": "label",
+      "label": "Drug-bag label dispenser"
+    }
   },
   {
     "slug": "egg-splitter-system",
@@ -131,8 +211,18 @@
     "problem": "In high-volume food service, egg-shell contamination risk is amplified by repetition. McDonald’s Australia alone handled tens of millions of eggs per year.",
     "response": "David developed a system enabling eggs to be delivered to and processed through a restaurant without direct shell contact by staff.",
     "outcome": "A product-system response to operational food-safety risk, developed with major commercial users over a multi-year period.",
-    "disciplines": ["food safety", "product system", "risk reduction", "commercial operations", "process design"],
-    "note": "The project sits between object design and operational design: a tool, a process and a risk-control idea."
+    "disciplines": [
+      "food safety",
+      "product system",
+      "risk reduction",
+      "commercial operations",
+      "process design"
+    ],
+    "note": "The project sits between object design and operational design: a tool, a process and a risk-control idea.",
+    "visual": {
+      "kind": "process",
+      "label": "No-touch egg handling"
+    }
   },
   {
     "slug": "ericsson-phone-system-casing",
@@ -146,8 +236,18 @@
     "problem": "The system needed to be installable on standard wooden power poles and support one main line feeding multiple sub-lines to local users.",
     "response": "David designed the casing around installation practicality, environmental exposure and the infrastructure conditions of suburban communities.",
     "outcome": "A functional telecommunications housing that supported more efficient local network connection without dedicated additional pole infrastructure.",
-    "disciplines": ["telecommunications", "industrial casing", "installation design", "infrastructure", "South Pacific deployment"],
-    "note": "A design problem defined as much by context and installation as by the object itself."
+    "disciplines": [
+      "telecommunications",
+      "industrial casing",
+      "installation design",
+      "infrastructure",
+      "South Pacific deployment"
+    ],
+    "note": "A design problem defined as much by context and installation as by the object itself.",
+    "visual": {
+      "kind": "casing",
+      "label": "Pole-mounted splitter casing"
+    }
   },
   {
     "slug": "vps-vine-pod-system",
@@ -161,7 +261,17 @@
     "problem": "Pest vines require effective treatment, but herbicide use brings risks of wastage, environmental fouling and human contact.",
     "response": "David developed the Vine Pod concept as a delivery system for predetermined, precise herbicide volumes applied to the vine with minimal waste and reduced operator exposure.",
     "outcome": "A current development project that carries JungDesign’s product-system thinking into biodiversity protection.",
-    "disciplines": ["environmental product", "biodiversity", "herbicide delivery", "safety", "concept development"],
-    "note": "This is where David’s design-development practice remains active: practical, ecological and still looking for the better mechanism."
+    "disciplines": [
+      "environmental product",
+      "biodiversity",
+      "herbicide delivery",
+      "safety",
+      "concept development"
+    ],
+    "note": "This is where David’s design-development practice remains active: practical, ecological and still looking for the better mechanism.",
+    "visual": {
+      "kind": "pod",
+      "label": "Precise herbicide delivery"
+    }
   }
 ]

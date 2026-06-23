@@ -20,7 +20,10 @@ const previous = projects[(projects.findIndex((item)=>item.slug===project.slug)-
       </div>
       <div class="project-hero-image project-hero-card">
         <span class="vertical">JUNGDESIGN / CASE {project.number}</span>
-        <strong>{project.number}</strong>
+        <div class:list={["project-visual","large",`visual-${project.visual.kind}`]} aria-hidden="true">
+          <b>{project.number}</b>
+          <em>{project.visual.label}</em>
+        </div>
         <p>{project.role}</p>
       </div>
     </section>
