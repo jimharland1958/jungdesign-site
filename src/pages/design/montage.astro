@@ -1,0 +1,25 @@
+---
+import Layout from '../../components/Layout.astro';
+import projects from '../../data/projects.json';
+---
+<Layout title="Development Montage — JungDesign" description="A visual montage of JungDesign product, development and project-management archive images.">
+  <main class="montage-page">
+    <section class="montage-hero">
+      <div>
+        <span class="eyebrow">Development montage</span>
+        <h1>Product images, project fragments, working evidence.</h1>
+        <p>This is a visual companion to the Development archive: a loose wall of source images from David Jung’s product, design-development and project-management material.</p>
+      </div>
+      <a class="button light" href="/design/">Back to Development →</a>
+    </section>
+
+    <section class="montage-wall" aria-label="Development project image montage">
+      {projects.map((project,index)=><a class:list={["montage-tile",`tile-${index%7}`]} href={`/design/${project.slug}/`}>
+        <img src={project.image} alt={project.imageAlt} loading={index<4?'eager':'lazy'} decoding="async"/>
+        <span>{project.number}</span>
+        <h2>{project.title}</h2>
+        <p>{project.visual.label}</p>
+      </a>)}
+    </section>
+  </main>
+</Layout>
