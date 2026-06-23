@@ -1,4 +1,40 @@
 ---
-import Layout from '../components/Layout.astro'; import SectionIntro from '../components/SectionIntro.astro'; import ContactCTA from '../components/ContactCTA.astro';
+import Layout from '../components/Layout.astro';
+import SectionIntro from '../components/SectionIntro.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import projects from '../data/projects.json';
 ---
-<Layout title="Development — JungDesign"><SectionIntro eyebrow="Development / Foundation" title="Design, before and beneath the paint" intro="For roughly six decades, David Jung worked as a professional designer and project manager. This archive gathers the objects, systems and decisions behind the JungDesign name."/><section class="archive-board"><div class="archive-feature buzzy-feature"><span class="vertical">JUNGDESIGN / DESIGNED OBJECTS</span><img src="/images/artworks/BuzzyBee1.jpg" alt="Blue technical drawing of a Buzzy Bee pull toy"/><p>Buzzy Bee — an iconic object resolved through proportion, mechanism and character.</p><a class="button light" href="/paintings/buzzy-bee/">View artwork →</a></div><div class="archive-list"><a class="archive-link" href="/paintings/buzzy-bee/"><article><b>01</b><h2>Designed Objects</h2><p>Objects considered from first sketch to final use: practical, legible and made with care.</p><i>View Buzzy Bee →</i></article></a><a class="archive-link" href="/process"><article><b>02</b><h2>Process</h2><p>Briefs, drawings, prototypes and the useful friction between an idea and its making.</p><i>Open studio notes →</i></article></a><article><b>03</b><h2>Commercial Projects</h2><p>Making complicated work coherent—aligning people, material, time and purpose.</p><i>Page under construction</i></article><a class="archive-link" href="/jungdesign"><article><b>04</b><h2>JungDesign</h2><p>A name spanning professional practice and the restless curiosity that now drives the studio.</p><i>View the film →</i></article></a></div></section><blockquote>“The paintings don’t leave design behind. They make its instincts visible.”</blockquote><ContactCTA title="A design conversation?" copy="David welcomes selected design and project enquiries alongside questions about the paintings."/></Layout>
+<Layout title="Development — JungDesign">
+  <SectionIntro eyebrow="Development / Foundation" title="Design, before and beneath the paint" intro="For roughly six decades, David Jung worked as a professional designer and project manager. This archive gathers the objects, systems and decisions behind the JungDesign name."/>
+  <section class="archive-board">
+    <div class="archive-feature buzzy-feature">
+      <span class="vertical">JUNGDESIGN / DESIGNED OBJECTS</span>
+      <img src="/images/artworks/BuzzyBee1.jpg" alt="Blue technical drawing of a Buzzy Bee pull toy"/>
+      <p>Buzzy Bee — an iconic object resolved through proportion, mechanism and character.</p>
+      <a class="button light" href="/paintings/buzzy-bee/">View artwork →</a>
+    </div>
+    <div class="archive-list">
+      <a class="archive-link" href="/paintings/buzzy-bee/"><article><b>01</b><h2>Designed Objects</h2><p>Objects considered from first sketch to final use: practical, legible and made with care.</p><i>View Buzzy Bee →</i></article></a>
+      <a class="archive-link" href="/process"><article><b>02</b><h2>Process</h2><p>Briefs, drawings, prototypes and the useful friction between an idea and its making.</p><i>Open studio notes →</i></article></a>
+      <a class="archive-link" href="#commercial-projects"><article><b>03</b><h2>Commercial Projects</h2><p>Making complicated work coherent—aligning people, material, time and purpose.</p><i>View projects →</i></article></a>
+      <a class="archive-link" href="/jungdesign"><article><b>04</b><h2>JungDesign</h2><p>A name spanning professional practice and the restless curiosity that now drives the studio.</p><i>View the film →</i></article></a>
+    </div>
+  </section>
+  <section class="project-index" id="commercial-projects">
+    <div class="project-index-intro">
+      <span class="eyebrow">Development projects</span>
+      <h2>Commercial work, product systems, project delivery.</h2>
+      <p>These archive entries turn David’s project documents into accessible case studies. More projects can now be added by extending the project catalogue.</p>
+    </div>
+    <div class="project-index-grid">
+      {projects.map((project)=><a class="project-tile text-only" href={`/design/${project.slug}/`}>
+        <span>{project.number} / {project.type}</span>
+        <h3>{project.title}</h3>
+        <p>{project.summary}</p>
+        <i>Open project →</i>
+      </a>)}
+    </div>
+  </section>
+  <blockquote>“The paintings don’t leave design behind. They make its instincts visible.”</blockquote>
+  <ContactCTA title="A design conversation?" copy="David welcomes selected design and project enquiries alongside questions about the paintings."/>
+</Layout>

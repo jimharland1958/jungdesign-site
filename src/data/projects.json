@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "vindpod",
+    "title": "VindPod",
+    "number": "01",
+    "type": "Design & development project",
+    "status": "Archive material ingested from supplied PDF",
+    "summary": "VindPod is presented here as a JungDesign development project: an example of David Jung’s long-practised ability to move from idea and problem-framing into a designed proposition that can be explained, reviewed and refined.",
+    "note": "The supplied PDF is a scanned six-page document, so the original pages are preserved as project plates while the editable web copy can be refined as more information arrives.",
+    "disciplines": [
+      "product thinking",
+      "concept development",
+      "communication design",
+      "project presentation"
+    ],
+    "plates": []
+  },
+  {
+    "slug": "project-management",
+    "title": "Project Management",
+    "number": "02",
+    "type": "Commercial projects",
+    "status": "Archive material ingested from supplied DOCX and PDF",
+    "summary": "David’s project-management work sits at the practical centre of JungDesign: meeting a client’s expectations, protecting budget and programme, and adding design-management judgement so complex work stays coherent.",
+    "note": "Source text was extracted from the supplied ProjectManagement1.docx. The companion Projects1.pdf is scanned and has been preserved as project plates.",
+    "disciplines": [
+      "client management",
+      "budget control",
+      "programme delivery",
+      "design management",
+      "national and international roll-outs"
+    ],
+    "caseStudies": [
+      {
+        "title": "AMEX America’s Cup Village, 1998–2000",
+        "text": "Contracted to design and build hospitality venues across five village locations, including a floating AMEX Yacht Club, corporate chalets, boat-party moorings, public canopy and bar, and entertainment stage. The capped $5m programme was delivered with the final venue opened a week early."
+      },
+      {
+        "title": "Air New Zealand terminal developments",
+        "text": "Managed North Island regional front-of-house terminal rebuilds and Air New Zealand terminal/sales-office reimaging work across Australia, Japan, Singapore and Taiwan, including new-destination delivery in Taiwan under a three-month design/build programme."
+      },
+      {
+        "title": "Air New Zealand self-service kiosks",
+        "text": "Surveyed 25 New Zealand airports to support end-to-end self-service ticketing, then later managed replacement of ageing kiosks with new French-built units across an 18-month, approximately $4m programme."
+      },
+      {
+        "title": "BNZ / ANZ bank reimaging",
+        "text": "Rolled out BNZ interiors across the East Coast of the North Island, then extended the work into ANZ/National Bank relocation and reimaging programmes across the same region."
+      },
+      {
+        "title": "Telstra Australia",
+        "text": "Reviewed and value-managed Telstra retail interior concepts, reducing budget pressure before leading a team of project managers through the rollout of around 200 live-phone retail stores across Australia."
+      }
+    ],
+    "plates": []
+  },
+  {
+    "slug": "product-development",
+    "title": "Product Development",
+    "number": "03",
+    "type": "Product design & development",
+    "status": "Archive material ingested from supplied DOCX and PDF",
+    "summary": "JungDesign’s product-development history shows David working from practical problems toward commercially produced objects and systems: measuring, dispensing, protecting, installing, reducing risk and making use easier.",
+    "note": "Source text was extracted from ProductDevelopment1.docx. The companion Products2.pdf is scanned and has been preserved as project plates.",
+    "disciplines": [
+      "industrial design",
+      "commercial product development",
+      "problem definition",
+      "prototyping",
+      "manufacture liaison"
+    ],
+    "caseStudies": [
+      {
+        "title": "5 litre measuring jug",
+        "text": "Developed for Peak Products in 1986 with attention to stackability for export, raised calibration for readability and dual-spout pourability for dry and wet contents. The product has remained in production for an international market."
+      },
+      {
+        "title": "EYEQue airport security system",
+        "text": "A proposed AI-enabled front-of-house airport security system developed with Fingermark Global after David identified a security-system fault during Air New Zealand terminal work. The system was developed, trialled and tested over approximately 18 months."
+      },
+      {
+        "title": "Hospital drug-bag labelling system",
+        "text": "A quick, accurate labelling concept for DHB anaesthetists, developed to reduce waste and improve legibility when opened drug bags lost their original identification during surgical routines."
+      },
+      {
+        "title": "The Egg Splitter System (TESS)",
+        "text": "Created with McDonald’s New Zealand and Australia to reduce salmonella risk by allowing eggs to move through restaurant handling and processing without staff touching the shell."
+      },
+      {
+        "title": "Ericsson phone system casing",
+        "text": "Designed a casing for Ericsson’s phone splitter system for dense lower-economic South Pacific communities, enabling main-line connection and multiple sub-lines from standard wooden power poles."
+      },
+      {
+        "title": "VPS — Vine Pod System",
+        "text": "A work-in-progress JungDesign concept for safe, precise herbicide delivery to pest vines, developed with interest from WWF New Zealand, Auckland Council biodiversity teams and Unitec."
+      }
+    ],
+    "plates": []
+  }
+]

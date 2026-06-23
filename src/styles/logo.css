@@ -6,6 +6,51 @@ header .brand img{width:100%;height:auto;display:block}
 .archive-link{display:block;border-left:1px solid var(--ink)}
 .archive-link article{height:100%;border-left:0;transition:background .2s,color .2s}
 .archive-link:hover article{background:var(--yellow)}
+.project-strip{display:grid;grid-template-columns:.9fr 1.1fr;gap:4vw;align-items:center;padding:6vw;border-bottom:var(--line);background:linear-gradient(112deg,var(--paper) 0 58%,rgba(241,187,33,.28) 58%)}
+.project-strip h2{font-size:clamp(48px,8vw,112px);margin:28px 0 24px}
+.project-strip p{max-width:680px;font-size:20px}
+.project-strip-image{display:block;background:var(--ink);padding:14px;box-shadow:12px 12px 0 var(--red);transform:rotate(1deg)}
+.project-strip-image img{aspect-ratio:1.42/1;object-fit:cover;object-position:top}
+.project-index{padding:6vw;border-bottom:var(--line);background:linear-gradient(180deg,var(--paper),#ded7c8)}
+.project-index-intro{display:grid;grid-template-columns:.7fr 1.5fr;gap:4vw;margin-bottom:5vw}
+.project-index-intro h2{font-size:clamp(42px,6vw,92px);margin:0}
+.project-index-intro p{font-size:20px;max-width:680px}
+.project-index-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5vw;align-items:start}
+.project-tile{display:block;background:var(--paper);border:1px solid var(--ink);padding:14px 14px 28px;box-shadow:8px 8px 0 var(--ink);transition:.2s}
+.project-tile:nth-child(even){transform:translateY(3vw) rotate(.6deg)}
+.project-tile:nth-child(odd){transform:rotate(-.5deg)}
+.project-tile:hover{background:var(--yellow);transform:translate(4px,4px);box-shadow:4px 4px 0 var(--ink)}
+.project-tile img{aspect-ratio:1/1.12;object-fit:cover;object-position:top;border:1px solid rgba(0,0,0,.25);background:var(--ink)}
+.project-tile span,.project-tile i{display:block;margin-top:14px;font:800 13px 'Barlow Condensed';text-transform:uppercase;letter-spacing:.1em;color:var(--red)}
+.project-tile h3{font-family:'Archivo Black',Impact,sans-serif;font-size:clamp(28px,3.2vw,48px);line-height:.95;letter-spacing:-.045em;margin:18px 0}
+.project-tile p{font-size:16px}
+.project-page{border-bottom:var(--line)}
+.project-hero{display:grid;grid-template-columns:.9fr 1.1fr;min-height:calc(100vh - 92px);border-bottom:var(--line)}
+.project-hero-copy{padding:7vw 5vw;display:flex;flex-direction:column;justify-content:center}
+.project-hero-copy h1{font-size:clamp(72px,13vw,180px);color:var(--red);margin:30px 0}
+.project-hero-copy .lede{font-size:clamp(22px,2.6vw,36px);line-height:1.18;max-width:760px}
+.project-hero-copy dl{margin:4vw 0 2vw;border-top:4px solid var(--ink)}
+.project-hero-copy dl div{display:grid;grid-template-columns:120px 1fr;border-bottom:1px solid var(--ink);padding:14px 0}
+.project-hero-copy dt{font:800 13px 'Barlow Condensed';letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
+.project-hero-copy dd{margin:0}
+.project-hero-image{position:relative;background:var(--blue);padding:5vw;display:grid;place-items:center;overflow:hidden}
+.project-hero-image img{max-height:78vh;object-fit:contain;box-shadow:14px 14px 0 rgba(0,0,0,.45);transform:rotate(-1deg)}
+.project-note{display:grid;grid-template-columns:190px 1fr;gap:4vw;padding:4vw 6vw;border-bottom:var(--line);background:var(--yellow)}
+.project-note b{font:800 28px 'Barlow Condensed';text-transform:uppercase}
+.project-note p{font-size:22px;max-width:900px;margin:0}
+.case-studies{display:grid;grid-template-columns:.65fr 1.6fr;gap:5vw;padding:6vw;border-bottom:var(--line);background:var(--paper)}
+.case-studies h2{font-size:clamp(42px,6vw,90px);margin:24px 0 0}
+.case-study-list{display:grid;gap:18px}
+.case-study-list article{display:grid;grid-template-columns:70px 1fr;gap:1.5vw;padding:24px;border:1px solid var(--ink);background:#f6f1e7;box-shadow:5px 5px 0 var(--red)}
+.case-study-list b{font:800 30px 'Barlow Condensed';color:var(--red)}
+.case-study-list h3{font-family:'Archivo Black',Impact,sans-serif;font-size:clamp(26px,3vw,44px);line-height:.98;letter-spacing:-.04em;margin:0 0 12px}
+.case-study-list p{grid-column:2;font-size:18px;margin:0}
+.project-plates{padding:6vw;display:grid;grid-template-columns:repeat(2,1fr);gap:5vw 3vw;background:#ded7c8}
+.project-plates figure{margin:0;background:var(--paper);padding:14px 14px 42px;border:1px solid var(--ink);box-shadow:8px 8px 0 var(--ink)}
+.project-plates figure:nth-child(even){transform:translateY(4vw) rotate(.7deg)}
+.project-plates figure:nth-child(odd){transform:rotate(-.5deg)}
+.project-plates img{aspect-ratio:1/1.414;object-fit:cover;object-position:top;border:1px solid rgba(0,0,0,.25)}
+.project-plates figcaption{margin-top:10px;font:800 13px 'Barlow Condensed';text-transform:uppercase;letter-spacing:.1em;color:var(--red)}
 
 /* Preserve the full, unusually tall Lady composition in its gallery pane. */
 .art-card.show-whole .art-image{background:var(--ink)}
@@ -35,4 +80,4 @@ header .brand img{width:100%;height:auto;display:block}
 .art-card.work-kids-on-court .art-image{aspect-ratio:1.8/1}
 .art-card.work-with-tony .art-image{aspect-ratio:1.48/1}
 .art-caption{min-height:112px;align-content:start}
-@media(max-width:800px){.art-card.size-major,.art-card.size-minor,.art-card.size-third,.art-card.size-panorama,.art-card.size-full{grid-column:auto}.art-card .art-image,.art-card.size-third .art-image,.art-card.size-full .art-image{aspect-ratio:4/3}.art-card.show-whole .art-image{aspect-ratio:4/5}.art-card.show-wide .art-image{aspect-ratio:2.18/1}.art-caption{min-height:0}}
+@media(max-width:800px){.art-card.size-major,.art-card.size-minor,.art-card.size-third,.art-card.size-panorama,.art-card.size-full{grid-column:auto}.art-card .art-image,.art-card.size-third .art-image,.art-card.size-full .art-image{aspect-ratio:4/3}.art-card.show-whole .art-image{aspect-ratio:4/5}.art-card.show-wide .art-image{aspect-ratio:2.18/1}.art-caption{min-height:0}.project-strip,.project-hero,.project-note,.project-plates,.project-index-intro,.project-index-grid,.case-studies{grid-template-columns:1fr}.project-strip,.project-hero-copy,.project-note,.project-plates,.project-index,.case-studies{padding:12vw 6vw}.project-hero-image{min-height:70vh}.project-plates figure:nth-child(even),.project-plates figure:nth-child(odd),.project-tile:nth-child(even),.project-tile:nth-child(odd){transform:none}.case-study-list article{grid-template-columns:1fr}.case-study-list p{grid-column:1}}

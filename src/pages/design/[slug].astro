@@ -1,0 +1,56 @@
+---
+import Layout from '../../components/Layout.astro';
+import projects from '../../data/projects.json';
+
+export function getStaticPaths(){
+  return projects.map((project)=>({params:{slug:project.slug},props:{project}}));
+}
+
+const {project}=Astro.props;
+---
+<Layout title={`${project.title} — Development — JungDesign`} description={`${project.title}, a JungDesign design and development project by David Jung.`}>
+  <main class="project-page">
+    <section class="project-hero">
+      <div class="project-hero-copy">
+        <span class="eyebrow">{project.type}</span>
+        <h1>{project.title}</h1>
+        <p class="lede">{project.summary}</p>
+        <dl>
+          <div><dt>Status</dt><dd>{project.status}</dd></div>
+          <div><dt>Disciplines</dt><dd>{project.disciplines.join(' / ')}</dd></div>
+        </dl>
+        <div class="actions">
+          <a class="button" href="/design/">Back to Development →</a>
+        </div>
+      </div>
+      <div class="project-hero-image project-hero-card">
+        <span class="vertical">JUNGDESIGN / PROJECT {project.number}</span>
+        <strong>{project.number}</strong>
+        <p>{project.type}</p>
+      </div>
+    </section>
+    <section class="project-note">
+      <b>Archive note</b>
+      <p>{project.note}</p>
+    </section>
+    {project.caseStudies&&<section class="case-studies">
+      <div class="case-studies-intro">
+        <span class="eyebrow">Selected examples</span>
+        <h2>What this work involved</h2>
+      </div>
+      <div class="case-study-list">
+        {project.caseStudies.map((item,index)=><article>
+          <b>{String(index+1).padStart(2,'0')}</b>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+        </article>)}
+      </div>
+    </section>}
+    {project.plates?.length>0&&<section class="project-plates" aria-label={`${project.title} project document pages`}>
+      {project.plates.map((plate,index)=><figure>
+        <img src={plate} alt={`${project.title} project document page ${index+1}`} loading={index<2?'eager':'lazy'} decoding="async"/>
+        <figcaption>{String(index+1).padStart(2,'0')} / supplied project document</figcaption>
+      </figure>)}
+    </section>}
+  </main>
+</Layout>
