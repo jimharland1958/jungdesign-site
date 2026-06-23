@@ -30,5 +30,9 @@ header .brand img{width:100%;height:auto;display:block}
 .art-card.preserve-full .art-image{background:var(--ink)}
 .art-card.preserve-full .art-image img{object-fit:contain}
 .art-card.preserve-full.size-minor .art-image{aspect-ratio:4/5}
+.art-card.work-blam-blam .art-image,.art-card.work-tony-king .art-image{aspect-ratio:3/4}
+.art-card.work-barlow .art-image{aspect-ratio:2.05/1}
+.art-card.work-kids-on-court .art-image{aspect-ratio:1.8/1}
+.art-card.work-with-tony .art-image{aspect-ratio:1.48/1}
 .art-caption{min-height:112px;align-content:start}
 @media(max-width:800px){.art-card.size-major,.art-card.size-minor,.art-card.size-third,.art-card.size-panorama,.art-card.size-full{grid-column:auto}.art-card .art-image,.art-card.size-third .art-image,.art-card.size-full .art-image{aspect-ratio:4/3}.art-card.show-whole .art-image{aspect-ratio:4/5}.art-card.show-wide .art-image{aspect-ratio:2.18/1}.art-caption{min-height:0}}
