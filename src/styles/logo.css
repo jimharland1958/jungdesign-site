@@ -122,3 +122,6 @@ header .brand img{width:100%;height:auto;display:block}
 
 /* Specific montage composition corrections. */
 .montage-tile.montage-vps-vine-pod-system{grid-column:1 / -1;min-height:520px;background:#eee8da}.montage-tile.montage-vps-vine-pod-system img{width:100%;height:100%;object-fit:contain}.montage-tile.montage-hospital-labelling-system{grid-column:span 2;min-height:210px;align-self:start}.montage-tile.montage-hospital-labelling-system img{max-height:210px}@media(max-width:900px){.montage-tile.montage-vps-vine-pod-system,.montage-tile.montage-hospital-labelling-system{grid-column:auto;min-height:260px}.montage-tile.montage-hospital-labelling-system img{max-height:none}}
+
+/* Snug montage tiles: let the image determine the tile height. */
+.montage-wall{align-items:start}.montage-tile,.montage-tile.tile-0,.montage-tile.tile-1,.montage-tile.tile-2,.montage-tile.tile-3,.montage-tile.tile-4,.montage-tile.tile-5,.montage-tile.tile-6,.montage-tile.montage-vps-vine-pod-system,.montage-tile.montage-hospital-labelling-system{min-height:0}.montage-tile{display:block}.montage-tile img{width:100%;height:auto;max-width:none;max-height:none;display:block}.montage-tile.montage-vps-vine-pod-system img{width:100%;height:auto;object-fit:contain}.montage-tile.montage-hospital-labelling-system img{max-height:none}
