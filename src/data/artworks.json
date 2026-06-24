@@ -168,18 +168,6 @@
     "alt": "Painting of a sunny New Zealand street scene"
   },
   {
-    "slug": "house",
-    "title": "910 Ferguson St",
-    "image": "/images/artworks/House1.jpg",
-    "group": "Surreal/Graphic Works",
-    "year": "Year unknown",
-    "medium": "Pencil on paper (to be confirmed)",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "Draughtsmanship as memory-work: measured, patient and alive with detail.",
-    "alt": "Detailed pencil drawing of the bungalow and garden at 910 Ferguson Street"
-  },
-  {
     "slug": "bull",
     "title": "Bull",
     "image": "/images/artworks/Bull1.jpg",
@@ -250,18 +238,6 @@
     "availability": "Enquire",
     "note": "A falcon crosses an expansive landscape where observation, map and memory overlap.",
     "alt": "Panoramic painting of a falcon flying above fields and a mountain range"
-  },
-  {
-    "slug": "self-ii",
-    "title": "Self II",
-    "image": "/images/artworks/Self2.jpg",
-    "group": "Portraits",
-    "year": "Year unknown",
-    "medium": "Pencil on paper (to be confirmed)",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "A quiet self-study built from patient tonal marks and an unwavering gaze.",
-    "alt": "Detailed monochrome self portrait of David Jung"
   },
   {
     "slug": "blam-blam",
