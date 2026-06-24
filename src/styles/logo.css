@@ -87,10 +87,10 @@ header .brand img{width:100%;height:auto;display:block}
 .art-card.work-red-trike .art-image,.art-card.work-blue-trike .art-image{aspect-ratio:1.3/1;background:var(--ink)}
 .art-card.work-red-trike .art-image img,.art-card.work-blue-trike .art-image img{object-fit:contain}
 .art-card.work-lily-at-hamos,.art-card.work-lady{grid-column:1 / span 6}
-.art-card.work-girls{grid-column:7 / span 6;transform:scale(1.06);transform-origin:top right;z-index:2}
+.art-card.work-girls{grid-column:8 / span 5;transform:none;z-index:auto}
 .art-card.work-bull{grid-column:7 / span 6}
 .art-card.work-lily-at-hamos{transform:scale(1.1);transform-origin:top left;z-index:2}
-.art-card.work-girls .art-image{aspect-ratio:2.288/3.939;background:var(--ink)}
+.art-card.work-girls .art-image{aspect-ratio:2660/3939;background:var(--ink)}
 .art-card.work-girls .art-image img{object-fit:contain!important}
 .art-caption{min-height:112px;align-content:start}
 @media(max-width:800px){.art-card.size-major,.art-card.size-minor,.art-card.size-half,.art-card.size-third,.art-card.size-panorama,.art-card.size-full,.art-card.work-lily-at-hamos,.art-card.work-girls,.art-card.work-lady,.art-card.work-bull{grid-column:auto}.art-card .art-image,.art-card.size-third .art-image,.art-card.size-full .art-image{aspect-ratio:4/3}.art-card.show-whole .art-image{aspect-ratio:4/5}.art-card.show-wide .art-image{aspect-ratio:2.18/1}.art-caption{min-height:0}.project-strip,.project-hero,.project-note,.project-plates,.project-index-intro,.project-index-grid,.case-studies{grid-template-columns:1fr}.project-strip,.project-hero-copy,.project-note,.project-plates,.project-index,.case-studies{padding:12vw 6vw}.project-hero-image{min-height:70vh}.project-plates figure:nth-child(even),.project-plates figure:nth-child(odd),.project-tile:nth-child(even),.project-tile:nth-child(odd){transform:none}.case-study-list article{grid-template-columns:1fr}.case-study-list p{grid-column:1}}
