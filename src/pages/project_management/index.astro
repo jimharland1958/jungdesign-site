@@ -55,7 +55,7 @@ const pillars = [
     </div>
     <div class="project-feature-grid">
       {featured.map((project)=><a class="project-tile feature" href={`/design/${project.slug}/`}>
-        <figure class="project-source-image"><img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async"/><figcaption>{project.visual.label}</figcaption></figure>
+        <figure class:list={["project-source-image", `project-${project.slug}`]}><img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async"/><figcaption>{project.visual.label}</figcaption></figure>
         <span>{project.number} / {project.type}</span>
         <h3>{project.title}</h3>
         <p>{project.summary}</p>
