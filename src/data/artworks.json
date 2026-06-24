@@ -108,6 +108,18 @@
     "alt": "Comic panel painting with a woman, man and speech bubbles"
   },
   {
+    "slug": "barlow",
+    "title": "Barlow",
+    "image": "/images/artworks/Barlow1.jpg",
+    "group": "GRAPHIC WORKS",
+    "year": "2014",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "A three-panel telephone scene with speech bubbles, street signage and noir comic timing.",
+    "alt": "Wide comic strip style painting with telephone booths, speech bubbles and close-up faces"
+  },
+  {
     "slug": "blam-blam",
     "title": "Blam Blam",
     "image": "/images/artworks/BlamBlam2.jpg",
@@ -262,17 +274,5 @@
     "availability": "Enquire",
     "note": "A falcon crosses an expansive landscape where observation, map and memory overlap.",
     "alt": "Panoramic painting of a falcon flying above fields and a mountain range"
-  },
-  {
-    "slug": "barlow",
-    "title": "Barlow",
-    "image": "/images/artworks/Barlow1.jpg",
-    "group": "GRAPHIC WORKS",
-    "year": "2014",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "A three-panel telephone scene with speech bubbles, street signage and noir comic timing.",
-    "alt": "Wide comic strip style painting with telephone booths, speech bubbles and close-up faces"
   }
 ]
