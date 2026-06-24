@@ -10,7 +10,7 @@ const {project}=Astro.props;
 const next = projects[(projects.findIndex((item)=>item.slug===project.slug)+1)%projects.length];
 const previous = projects[(projects.findIndex((item)=>item.slug===project.slug)-1+projects.length)%projects.length];
 ---
-<Layout title={`${project.title} — Development — JungDesign`} description={project.summary}>
+<Layout title={`${project.title} — Product Development — JungDesign`} description={project.summary}>
   <main class="project-page editorial-project">
     <section class="project-hero">
       <div class="project-hero-copy">
@@ -60,9 +60,9 @@ const previous = projects[(projects.findIndex((item)=>item.slug===project.slug)-
       <p>This kind of work explains the structure in David’s paintings: the clear edge, the controlled crop, the object treated seriously, and the confidence that comes from decades of making ideas survive contact with real-world constraints.</p>
     </section>
 
-    <nav class="work-nav" aria-label="Development project navigation">
+    <nav class="work-nav" aria-label="Product Development project navigation">
       <a href={`/design/${previous.slug}/`}>← {previous.title}</a>
-      <a href="/design/">Development index</a>
+      <a href="/design/">Product Development index</a>
       <a href={`/design/${next.slug}/`}>{next.title} →</a>
     </nav>
   </main>
