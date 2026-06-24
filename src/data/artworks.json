@@ -144,6 +144,18 @@
     "alt": "Portrait of an older woman seated with newspapers"
   },
   {
+    "slug": "mother",
+    "title": "Mother",
+    "image": "/images/artworks/Mother1.jpg",
+    "group": "Family & Memory",
+    "year": "Year unknown",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "An intimate family scene shaped by a sweeping horizontal crop and the bright interruption of red.",
+    "alt": "Painting of a mother holding a baby while speaking on a cordless telephone"
+  },
+  {
     "slug": "hastings-street",
     "title": "Hastings Street",
     "image": "/images/artworks/HastingsSt1.jpg",
@@ -202,18 +214,6 @@
     "availability": "Enquire",
     "note": "A view through a view: architecture, reflection and framing compressed into one quiet study.",
     "alt": "Painting of neighbouring rooftops seen through a long horizontal window"
-  },
-  {
-    "slug": "mother",
-    "title": "Mother",
-    "image": "/images/artworks/Mother1.jpg",
-    "group": "Family & Memory",
-    "year": "Year unknown",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "An intimate family scene shaped by a sweeping horizontal crop and the bright interruption of red.",
-    "alt": "Painting of a mother holding a baby while speaking on a cordless telephone"
   },
   {
     "slug": "boat",
