@@ -2,6 +2,8 @@
 const {art,index=0,priority=false}=Astro.props;
 const rhythm=['major','minor','third','third','third','minor','major','third','third','third','major','minor'];
 const specialSizes={
+  'red-trike':'half',
+  'blue-trike':'half',
   'buzzy-bee':'full',
   'falcon':'full',
   'mother':'full',
@@ -29,4 +31,4 @@ const specialSizes={
 const size=specialSizes[art.slug]??rhythm[index%rhythm.length];
 const preserveFull=['buzzy-bee','falcon','blam-blam','with-tony','barlow','kids-on-court','tony-king'].includes(art.slug);
 ---
-<article class:list={['art-card',`work-${art.slug}`,`size-${size}`,['lady','bull','jet-plane','monday'].includes(art.slug)&&'show-whole',art.slug==='mother'&&'show-wide',preserveFull&&'preserve-full']}><a href={`/paintings/${art.slug}/`}><div class="art-image"><img src={art.image} alt={art.alt} loading={priority?'eager':'lazy'} decoding="async"/></div><div class="art-caption"><span>{String(index+1).padStart(2,'0')} / {art.group}</span><h2>{art.title}</h2><i>View work ↗</i></div></a></article>
+<article class:list={['art-card',`work-${art.slug}`,`size-${size}`,['red-trike','blue-trike','lady','bull','jet-plane','monday'].includes(art.slug)&&'show-whole',art.slug==='mother'&&'show-wide',preserveFull&&'preserve-full']}><a href={`/paintings/${art.slug}/`}><div class="art-image"><img src={art.image} alt={art.alt} loading={priority?'eager':'lazy'} decoding="async"/></div><div class="art-caption"><span>{String(index+1).padStart(2,'0')} / {art.group}</span><h2>{art.title}</h2><i>View work ↗</i></div></a></article>
