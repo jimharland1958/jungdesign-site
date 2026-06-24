@@ -92,7 +92,7 @@ header .brand img{width:100%;height:auto;display:block}
 .art-card.work-red-trike .art-image img,.art-card.work-blue-trike .art-image img{object-fit:contain}
 .art-card.work-lily-at-hamos{grid-column:1 / span 7}
 .art-card.work-lady{grid-column:1 / span 6}
-.art-card.work-girls{grid-column:8 / span 4;transform:none;z-index:auto;align-self:start}
+.art-card.work-girls{grid-column:8 / span 4;transform:translateX(15%);z-index:auto;align-self:start}
 .art-card.work-bull{grid-column:7 / span 6}
 .art-card.work-lily-at-hamos{transform:scale(1.1);transform-origin:top left;z-index:1}
 .art-card.work-girls .art-image{aspect-ratio:2660/3939;background:transparent}
