@@ -36,6 +36,18 @@
     "alt": "Drawing of golf balls with one green ball"
   },
   {
+    "slug": "buzzy-bee",
+    "title": "Buzzy Bee",
+    "image": "/images/artworks/BuzzyBee1.jpg",
+    "group": "OBJECT STUDIES",
+    "year": "Year unknown",
+    "medium": "Blueprint drawing (to be confirmed)",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "A beloved New Zealand object translated into the exacting language of a working drawing.",
+    "alt": "Blue technical drawing showing front, side and wheel details of a Buzzy Bee pull toy"
+  },
+  {
     "slug": "red-tee",
     "title": "Red Tee",
     "image": "/images/artworks/RedTee1.jpg",
@@ -238,18 +250,6 @@
     "availability": "Enquire",
     "note": "A small boat held in blue stillness, its reflection doubling the weight of the form.",
     "alt": "Painting of a small white rowing boat tethered on calm blue water"
-  },
-  {
-    "slug": "buzzy-bee",
-    "title": "Buzzy Bee",
-    "image": "/images/artworks/BuzzyBee1.jpg",
-    "group": "OBJECT STUDIES",
-    "year": "Year unknown",
-    "medium": "Blueprint drawing (to be confirmed)",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "A beloved New Zealand object translated into the exacting language of a working drawing.",
-    "alt": "Blue technical drawing showing front, side and wheel details of a Buzzy Bee pull toy"
   },
   {
     "slug": "falcon",
