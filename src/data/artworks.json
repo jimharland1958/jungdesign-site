@@ -108,6 +108,18 @@
     "alt": "Comic panel painting with a woman, man and speech bubbles"
   },
   {
+    "slug": "kids-on-court",
+    "title": "Kids on Court",
+    "image": "/images/artworks/KidsOnCourt2.jpg",
+    "group": "GRAPHIC WORKS",
+    "year": "Year unknown",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "A bright court scene caught mid-action: bodies, shadows and green surface moving like choreography.",
+    "alt": "Painting of three children changing shirts on a green tennis court"
+  },
+  {
     "slug": "blam-blam",
     "title": "Blam Blam",
     "image": "/images/artworks/BlamBlam2.jpg",
@@ -262,17 +274,5 @@
     "availability": "Enquire",
     "note": "A three-panel telephone scene with speech bubbles, street signage and noir comic timing.",
     "alt": "Wide comic strip style painting with telephone booths, speech bubbles and close-up faces"
-  },
-  {
-    "slug": "kids-on-court",
-    "title": "Kids on Court",
-    "image": "/images/artworks/KidsOnCourt2.jpg",
-    "group": "GRAPHIC WORKS",
-    "year": "Year unknown",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "A bright court scene caught mid-action: bodies, shadows and green surface moving like choreography.",
-    "alt": "Painting of three children changing shirts on a green tennis court"
   }
 ]
