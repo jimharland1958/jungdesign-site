@@ -24,18 +24,6 @@
     "alt": "Painting of a blue vintage child's tricycle"
   },
   {
-    "slug": "green-ball",
-    "title": "Green Ball",
-    "image": "/images/artworks/GreenBall1.jpg",
-    "group": "OBJECT STUDIES",
-    "year": "Year unknown",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "One green ball interrupts a field of white: a small act of graphic mischief.",
-    "alt": "Drawing of golf balls with one green ball"
-  },
-  {
     "slug": "buzzy-bee",
     "title": "Buzzy Bee",
     "image": "/images/artworks/BuzzyBee1.jpg",
@@ -46,6 +34,18 @@
     "availability": "Enquire",
     "note": "A beloved New Zealand object translated into the exacting language of a working drawing.",
     "alt": "Blue technical drawing showing front, side and wheel details of a Buzzy Bee pull toy"
+  },
+  {
+    "slug": "green-ball",
+    "title": "Green Ball",
+    "image": "/images/artworks/GreenBall1.jpg",
+    "group": "OBJECT STUDIES",
+    "year": "Year unknown",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "One green ball interrupts a field of white: a small act of graphic mischief.",
+    "alt": "Drawing of golf balls with one green ball"
   },
   {
     "slug": "red-tee",
