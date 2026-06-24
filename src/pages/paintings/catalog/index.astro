@@ -1,0 +1,32 @@
+---
+import Layout from '../../../components/Layout.astro';
+import SectionIntro from '../../../components/SectionIntro.astro';
+import artworks from '../../../data/artworks.json';
+
+const sortedArtworks = [...artworks].sort((a,b)=>a.title.localeCompare(b.title, 'en', {sensitivity:'base'}));
+---
+<Layout title="Artwork Catalog — David Jung | JungDesign" description="Alphabetical catalog of David Jung artworks with year, medium, size and status.">
+  <SectionIntro eyebrow={`${sortedArtworks.length} works / Alphabetical`} title="Artwork Catalog" intro="A practical archive list of David Jung artworks. Each title links to the artwork detail page, with placeholder fields ready to update as records are confirmed."/>
+
+  <section class="catalog-panel" aria-label="Artwork catalog">
+    <div class="catalog-actions">
+      <a class="button" href="/paintings/">Back to paintings wall →</a>
+    </div>
+    <div class="catalog-table" role="table" aria-label="Alphabetical artwork catalog">
+      <div class="catalog-row catalog-head" role="row">
+        <span role="columnheader">Artwork</span>
+        <span role="columnheader">Year</span>
+        <span role="columnheader">Medium</span>
+        <span role="columnheader">Size</span>
+        <span role="columnheader">Status</span>
+      </div>
+      {sortedArtworks.map((art,index)=><a class="catalog-row" href={`/paintings/${art.slug}/`} role="row">
+        <span class="catalog-title" role="cell"><b>{String(index+1).padStart(2,'0')}</b>{art.title}</span>
+        <span role="cell">{art.year}</span>
+        <span role="cell">{art.medium}</span>
+        <span role="cell">{art.dimensions}</span>
+        <span role="cell">{art.availability}</span>
+      </a>)}
+    </div>
+  </section>
+</Layout>
