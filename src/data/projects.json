@@ -1,13 +1,13 @@
 [
   {
     "slug": "amex-americas-cup-village",
-    "title": "AMEX America’s Cup Village",
+    "title": "AMEX America\u2019s Cup Village",
     "number": "01",
     "type": "Commercial project delivery",
-    "period": "1998–2000",
+    "period": "1998\u20132000",
     "client": "AMEX Village hospitality providers",
     "role": "Designer and project lead for hospitality venues across the village.",
-    "summary": "A compressed, high-visibility programme delivering hospitality environments for the America’s Cup Village: floating yacht club, corporate chalets, boat-party moorings, public canopy, bar, entertainment stage and seating.",
+    "summary": "A compressed, high-visibility programme delivering hospitality environments for the America\u2019s Cup Village: floating yacht club, corporate chalets, boat-party moorings, public canopy, bar, entertainment stage and seating.",
     "problem": "Create a series of distinct hospitality venues across five village locations, with fixed budget, public scrutiny and a hard event deadline.",
     "response": "David coordinated concept, design development, manufacture and delivery, working with RCP Napier and project partners to turn multiple venue types into buildable, operational environments.",
     "outcome": "The capped programme was delivered within the stated budget, with the final venue opened a week early.",
@@ -24,7 +24,7 @@
       "label": "Floating yacht club / chalets / stage"
     },
     "image": "/images/project-sources/amex-americas-cup-village.jpg",
-    "imageAlt": "Source document image for AMEX America’s Cup Village"
+    "imageAlt": "Source document image for AMEX America\u2019s Cup Village"
   },
   {
     "slug": "air-new-zealand-terminals",
@@ -85,7 +85,7 @@
     "title": "BNZ / ANZ Bank Reimaging",
     "number": "04",
     "type": "Retail and branch rollout",
-    "period": "2010–2011 and following extension",
+    "period": "2010\u20132011 and following extension",
     "client": "BNZ / ANZ via RCP",
     "role": "Regional project manager for branch interior rollouts and relocations.",
     "summary": "Branch interior reimaging across the East Coast of the North Island, followed by ANZ relocation and reimaging work into newly acquired National Bank locations.",
@@ -112,7 +112,7 @@
     "title": "Telstra Australia Retail Rollout",
     "number": "05",
     "type": "Retail rollout / value management",
-    "period": "2009–2010",
+    "period": "2009\u20132010",
     "client": "Telstra Australia",
     "role": "Senior project manager and design review lead.",
     "summary": "A national retail programme for live-mode telco stores across Australia, beginning with cost review and moving into large-team rollout management.",
@@ -207,7 +207,7 @@
       "product concept",
       "manufacture liaison"
     ],
-    "note": "JungDesign’s sweet spot: notice the friction, then make the fix legible and usable.",
+    "note": "JungDesign\u2019s sweet spot: notice the friction, then make the fix legible and usable.",
     "visual": {
       "kind": "label",
       "label": "Drug-bag label dispenser"
@@ -221,10 +221,10 @@
     "number": "09",
     "type": "Food safety product system",
     "period": "From 2000, developed over several years",
-    "client": "McDonald’s New Zealand and Australia divisions",
+    "client": "McDonald\u2019s New Zealand and Australia divisions",
     "role": "Product-system developer working with fast-food operational requirements.",
     "summary": "A system developed to reduce salmonella risk by allowing eggs to move through restaurant handling and processing without staff touching the shell.",
-    "problem": "In high-volume food service, egg-shell contamination risk is amplified by repetition. McDonald’s Australia alone handled tens of millions of eggs per year.",
+    "problem": "In high-volume food service, egg-shell contamination risk is amplified by repetition. McDonald\u2019s Australia alone handled tens of millions of eggs per year.",
     "response": "David developed a system enabling eggs to be delivered to and processed through a restaurant without direct shell contact by staff.",
     "outcome": "A product-system response to operational food-safety risk, developed with major commercial users over a multi-year period.",
     "disciplines": [
@@ -250,7 +250,7 @@
     "period": "Date to be confirmed",
     "client": "Ericsson International via New Zealand agent",
     "role": "Industrial designer for a splitter-system housing.",
-    "summary": "A casing developed for Ericsson’s phone splitter system for high-density, lower-economic regions across the South Pacific.",
+    "summary": "A casing developed for Ericsson\u2019s phone splitter system for high-density, lower-economic regions across the South Pacific.",
     "problem": "The system needed to be installable on standard wooden power poles and support one main line feeding multiple sub-lines to local users.",
     "response": "David designed the casing around installation practicality, environmental exposure and the infrastructure conditions of suburban communities.",
     "outcome": "A functional telecommunications housing that supported more efficient local network connection without dedicated additional pole infrastructure.",
@@ -266,12 +266,12 @@
       "kind": "casing",
       "label": "Pole-mounted splitter casing"
     },
-    "image": "/images/project-sources/ericsson-phone-system-casing.jpg",
+    "image": "/images/project-sources/ericsson-phone-system-casing-cw.jpg",
     "imageAlt": "Source document image for Ericsson Phone System Casing"
   },
   {
     "slug": "vps-vine-pod-system",
-    "title": "VPS — Vine Pod System",
+    "title": "VPS \u2014 Vine Pod System",
     "number": "11",
     "type": "Environmental product system",
     "period": "Work in progress",
@@ -280,7 +280,7 @@
     "summary": "A work-in-progress system for precise, safe delivery of herbicide to pest vines damaging New Zealand native flora and fauna.",
     "problem": "Pest vines require effective treatment, but herbicide use brings risks of wastage, environmental fouling and human contact.",
     "response": "David developed the Vine Pod concept as a delivery system for predetermined, precise herbicide volumes applied to the vine with minimal waste and reduced operator exposure.",
-    "outcome": "A current development project that carries JungDesign’s product-system thinking into biodiversity protection.",
+    "outcome": "A current development project that carries JungDesign\u2019s product-system thinking into biodiversity protection.",
     "disciplines": [
       "environmental product",
       "biodiversity",
@@ -288,12 +288,12 @@
       "safety",
       "concept development"
     ],
-    "note": "This is where David’s design-development practice remains active: practical, ecological and still looking for the better mechanism.",
+    "note": "This is where David\u2019s design-development practice remains active: practical, ecological and still looking for the better mechanism.",
     "visual": {
       "kind": "pod",
       "label": "Precise herbicide delivery"
     },
     "image": "/images/project-sources/vps-vine-pod-system.jpg",
-    "imageAlt": "Source document image for VPS — Vine Pod System"
+    "imageAlt": "Source document image for VPS \u2014 Vine Pod System"
   }
 ]
