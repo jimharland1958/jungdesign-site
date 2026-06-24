@@ -79,7 +79,7 @@ header .brand img{width:100%;height:auto;display:block}
 .art-card.work-blam-blam .art-image,.art-card.work-tony-king .art-image{aspect-ratio:3/4}
 .art-card.work-barlow .art-image{aspect-ratio:2.05/1}
 .art-card.work-kids-on-court .art-image{aspect-ratio:1.8/1}
-.art-card.work-falcon .art-image{aspect-ratio:1598/546;background:transparent}
+.art-card.work-falcon .art-image{aspect-ratio:1598/524;background:transparent}
 .art-card.work-falcon .art-image img{object-fit:cover}
 .art-card.work-with-tony .art-image{aspect-ratio:1.48/1}
 .art-card.work-blam-blam{grid-row:span 2}
