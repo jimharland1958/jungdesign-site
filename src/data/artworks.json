@@ -108,18 +108,6 @@
     "alt": "Comic panel painting with a woman, man and speech bubbles"
   },
   {
-    "slug": "kids-on-court",
-    "title": "Kids on Court",
-    "image": "/images/artworks/KidsOnCourt2.jpg",
-    "group": "GRAPHIC WORKS",
-    "year": "Year unknown",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "A bright court scene caught mid-action: bodies, shadows and green surface moving like choreography.",
-    "alt": "Painting of three children changing shirts on a green tennis court"
-  },
-  {
     "slug": "blam-blam",
     "title": "Blam Blam",
     "image": "/images/artworks/BlamBlam2.jpg",
@@ -238,6 +226,18 @@
     "availability": "Enquire",
     "note": "An intimate family scene shaped by a sweeping horizontal crop and the bright interruption of red.",
     "alt": "Painting of a mother holding a baby while speaking on a cordless telephone"
+  },
+  {
+    "slug": "kids-on-court",
+    "title": "Kids on Court",
+    "image": "/images/artworks/KidsOnCourt2.jpg",
+    "group": "GRAPHIC WORKS",
+    "year": "Year unknown",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "A bright court scene caught mid-action: bodies, shadows and green surface moving like choreography.",
+    "alt": "Painting of three children changing shirts on a green tennis court"
   },
   {
     "slug": "boat",
