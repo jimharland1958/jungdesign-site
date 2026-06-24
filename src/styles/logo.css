@@ -156,3 +156,5 @@ header .brand img{width:100%;height:auto;display:block}
 .montage-preview-grid img{display:block;width:100%;height:96px;object-fit:contain;object-position:center;background:var(--paper);border:1px solid rgba(238,232,218,.45);filter:saturate(.96) contrast(1.02)}
 .montage-preview-grid img:nth-child(1),.montage-preview-grid img:nth-child(2),.montage-preview-grid img:nth-child(3),.montage-preview-grid img:nth-child(4),.montage-preview-grid img:nth-child(5),.montage-preview-grid img:nth-child(6){display:block;grid-column:auto;grid-row:auto;height:96px;object-fit:contain}
 @media(max-width:800px){.montage-preview-card{margin-top:24px}.montage-preview-grid{grid-template-columns:repeat(2,1fr);gap:7px}.montage-preview-grid img{height:88px}}
+
+.phone-line{font:800 18px 'Barlow Condensed',Impact,sans-serif;text-transform:uppercase;letter-spacing:.08em}.phone-line a,.contact-note a[href^="tel:"],footer a[href^="tel:"]{color:var(--red);text-decoration:underline;text-underline-offset:3px}
