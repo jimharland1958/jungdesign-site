@@ -6,7 +6,14 @@ import projects from '../data/projects.json';
 
 const featured = projects.slice(0, 5);
 const productWork = projects.slice(5);
-const montagePreview = projects.slice(0, 8);
+const montagePreview = [
+  projects.find((project)=>project.slug==='vps-vine-pod-system'),
+  projects.find((project)=>project.slug==='air-new-zealand-terminals'),
+  projects.find((project)=>project.slug==='amex-americas-cup-village'),
+  projects.find((project)=>project.slug==='bnz-anz-reimaging'),
+  projects.find((project)=>project.slug==='five-litre-measuring-jug'),
+  projects.find((project)=>project.slug==='hospital-labelling-system')
+].filter(Boolean);
 const pillars = [
   ['Problem', 'Identify the real friction: use, cost, safety, programme, legibility, manufacture or movement through a place.'],
   ['Response', 'Turn the brief into something buildable: an object, system, environment, rollout plan or working prototype.'],
@@ -40,11 +47,11 @@ const pillars = [
       <h2>Proof of method, not nostalgia.</h2>
       <p>These projects show David working where design has consequences: live airports, retail rollouts, hospitality deadlines, budgets, safety systems and manufactured products. The point is not to compete with the paintings, but to show the discipline that made them possible.</p>
       <a class="montage-preview-card" href="/design/montage/" aria-label="View Development image montage">
-        <span class="eyebrow">View image montage</span>
+        <span class="eyebrow">Image montage</span>
         <div class="montage-preview-grid" aria-hidden="true">
           {montagePreview.map((project)=><img src={project.image} alt="" loading="lazy" decoding="async"/>) }
         </div>
-        <strong>Open the visual wall →</strong>
+        <strong>View the visual wall →</strong>
       </a>
     </div>
     <div class="project-feature-grid">
