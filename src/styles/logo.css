@@ -61,6 +61,7 @@ header .brand img{width:100%;height:auto;display:block}
 .art-card{grid-column:auto}
 .art-card.size-major{grid-column:span 7}
 .art-card.size-minor{grid-column:span 5}
+.art-card.size-half{grid-column:span 6}
 .art-card.size-third{grid-column:span 4}
 .art-card.size-panorama{grid-column:span 8}
 .art-card.size-full{grid-column:1 / -1}
@@ -80,7 +81,7 @@ header .brand img{width:100%;height:auto;display:block}
 .art-card.work-kids-on-court .art-image{aspect-ratio:1.8/1}
 .art-card.work-with-tony .art-image{aspect-ratio:1.48/1}
 .art-caption{min-height:112px;align-content:start}
-@media(max-width:800px){.art-card.size-major,.art-card.size-minor,.art-card.size-third,.art-card.size-panorama,.art-card.size-full{grid-column:auto}.art-card .art-image,.art-card.size-third .art-image,.art-card.size-full .art-image{aspect-ratio:4/3}.art-card.show-whole .art-image{aspect-ratio:4/5}.art-card.show-wide .art-image{aspect-ratio:2.18/1}.art-caption{min-height:0}.project-strip,.project-hero,.project-note,.project-plates,.project-index-intro,.project-index-grid,.case-studies{grid-template-columns:1fr}.project-strip,.project-hero-copy,.project-note,.project-plates,.project-index,.case-studies{padding:12vw 6vw}.project-hero-image{min-height:70vh}.project-plates figure:nth-child(even),.project-plates figure:nth-child(odd),.project-tile:nth-child(even),.project-tile:nth-child(odd){transform:none}.case-study-list article{grid-template-columns:1fr}.case-study-list p{grid-column:1}}
+@media(max-width:800px){.art-card.size-major,.art-card.size-minor,.art-card.size-half,.art-card.size-third,.art-card.size-panorama,.art-card.size-full{grid-column:auto}.art-card .art-image,.art-card.size-third .art-image,.art-card.size-full .art-image{aspect-ratio:4/3}.art-card.show-whole .art-image{aspect-ratio:4/5}.art-card.show-wide .art-image{aspect-ratio:2.18/1}.art-caption{min-height:0}.project-strip,.project-hero,.project-note,.project-plates,.project-index-intro,.project-index-grid,.case-studies{grid-template-columns:1fr}.project-strip,.project-hero-copy,.project-note,.project-plates,.project-index,.case-studies{padding:12vw 6vw}.project-hero-image{min-height:70vh}.project-plates figure:nth-child(even),.project-plates figure:nth-child(odd),.project-tile:nth-child(even),.project-tile:nth-child(odd){transform:none}.case-study-list article{grid-template-columns:1fr}.case-study-list p{grid-column:1}}
 
 /* Text-first Development archive: curated professional record, not document dump. */
 .dev-manifesto{display:grid;grid-template-columns:.45fr 1.55fr;gap:5vw;padding:7vw 6vw;border-bottom:var(--line);background:linear-gradient(135deg,var(--paper) 0 62%,rgba(229,53,36,.12) 62%)}

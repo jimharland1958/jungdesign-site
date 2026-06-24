@@ -84,6 +84,30 @@
     "alt": "Close-up comic painting of a figure's eyes and thought bubble"
   },
   {
+    "slug": "blam-blam",
+    "title": "Blam Blam",
+    "image": "/images/artworks/BlamBlam2.jpg",
+    "group": "Pop/Comic Works",
+    "year": "2015",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "A tall comic poster-panel full of cropped lettering, yellow heat and theatrical confrontation.",
+    "alt": "Pop art painting of a police officer pointing a gun with repeated Blam lettering"
+  },
+  {
+    "slug": "with-tony",
+    "title": "With Tony",
+    "image": "/images/artworks/WithTony.jpg",
+    "group": "Portraits",
+    "year": "Year unknown",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "Studio portrait and painted portrait meet in one frame: the maker, the work, and the room around them.",
+    "alt": "David Jung seated beside a large painting of Tony leaning through a car window"
+  },
+  {
     "slug": "self",
     "title": "Self",
     "image": "/images/artworks/Self1.jpg",
@@ -238,30 +262,6 @@
     "availability": "Enquire",
     "note": "A falcon crosses an expansive landscape where observation, map and memory overlap.",
     "alt": "Panoramic painting of a falcon flying above fields and a mountain range"
-  },
-  {
-    "slug": "blam-blam",
-    "title": "Blam Blam",
-    "image": "/images/artworks/BlamBlam2.jpg",
-    "group": "Pop/Comic Works",
-    "year": "2015",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "A tall comic poster-panel full of cropped lettering, yellow heat and theatrical confrontation.",
-    "alt": "Pop art painting of a police officer pointing a gun with repeated Blam lettering"
-  },
-  {
-    "slug": "with-tony",
-    "title": "With Tony",
-    "image": "/images/artworks/WithTony.jpg",
-    "group": "Portraits",
-    "year": "Year unknown",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "Studio portrait and painted portrait meet in one frame: the maker, the work, and the room around them.",
-    "alt": "David Jung seated beside a large painting of Tony leaning through a car window"
   },
   {
     "slug": "barlow",
