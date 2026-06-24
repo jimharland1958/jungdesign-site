@@ -60,18 +60,6 @@
     "alt": "Pop art painting of comic characters in close-up"
   },
   {
-    "slug": "omg",
-    "title": "OMG",
-    "image": "/images/artworks/OMG1.jpg",
-    "group": "Pop/Comic Works",
-    "year": "Year unknown",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "A found panel becomes a complete little theatre of looking and hesitation.",
-    "alt": "Comic panel painting with a woman, man and speech bubbles"
-  },
-  {
     "slug": "superman",
     "title": "Thinking",
     "image": "/images/artworks/Superman1.jpg",
@@ -82,6 +70,18 @@
     "availability": "Enquire",
     "note": "A cinematic crop: identity reduced to eyes, ink and anticipation.",
     "alt": "Close-up comic painting of a figure's eyes and thought bubble"
+  },
+  {
+    "slug": "omg",
+    "title": "OMG",
+    "image": "/images/artworks/OMG1.jpg",
+    "group": "Pop/Comic Works",
+    "year": "Year unknown",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "A found panel becomes a complete little theatre of looking and hesitation.",
+    "alt": "Comic panel painting with a woman, man and speech bubbles"
   },
   {
     "slug": "blam-blam",
