@@ -72,6 +72,8 @@ header .brand img{width:100%;height:auto;display:block}
 .art-card.show-whole .art-image img{aspect-ratio:auto;object-fit:contain}
 .art-card.show-wide .art-image{aspect-ratio:2.18/1;background:var(--ink)}
 .art-card.show-wide .art-image img{object-fit:contain}
+.art-card.work-mother .art-image{aspect-ratio:2.06/1;background:transparent}
+.art-card.work-mother .art-image img{object-fit:cover}
 .art-card.size-full .art-image{aspect-ratio:2.2/1}
 .art-card.preserve-full .art-image{background:var(--ink)}
 .art-card.preserve-full .art-image img{object-fit:contain}
