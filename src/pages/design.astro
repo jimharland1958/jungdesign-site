@@ -7,21 +7,21 @@ import projects from '../data/projects.json';
 const featured = projects.slice(0, 5);
 const productWork = projects.slice(5);
 const pillars = [
-  ['Designed objects', 'Commercial products and mechanisms resolved through use, manufacture, legibility and durability.'],
-  ['Development systems', 'Ideas carried past sketch stage into testable, buildable propositions with real-world constraints.'],
-  ['Project management', 'Budgets, programmes, contractors, clients and deadlines held together without losing the design intent.'],
-  ['JungDesign', 'A professional practice built on noticing what is wrong, clarifying what is needed, and making the answer workable.']
+  ['Problem', 'Identify the real friction: use, cost, safety, programme, legibility, manufacture or movement through a place.'],
+  ['Response', 'Turn the brief into something buildable: an object, system, environment, rollout plan or working prototype.'],
+  ['Outcome', 'Hold the practical result in view: clearer use, safer handling, better delivery, lower cost or reliable implementation.'],
+  ['Painting link', 'The same habits now surface in the paintings: structure, edges, sequence, material intelligence and visual nerve.']
 ];
 ---
 <Layout title="Development — JungDesign" description="David Jung’s JungDesign development, design-management and project-management work.">
-  <SectionIntro eyebrow="Development / Foundation" title="Sixty years of making ideas workable" intro="Before painting became the main daily practice, JungDesign was a working design and project-management practice: products, environments, systems, rollouts and commercial problem-solving."/>
+  <SectionIntro eyebrow="Development / Proof" title="David Jung has spent decades making complex design and development projects real." intro="Before painting became the main daily practice, JungDesign was a working design and project-management practice: products, environments, systems, rollouts and commercial problem-solving."/>
 
   <section class="dev-manifesto">
     <div class="dev-manifesto-mark">JD</div>
     <div>
       <span class="eyebrow">Professional spine</span>
-      <p>David Jung’s development work is not a side note to the paintings. It is the discipline underneath them: clear composition, practical judgement, careful sequencing, a feel for materials and a habit of turning vague problems into usable form.</p>
-      <p>The archive below is deliberately text-first. It is not a dump of scanned documents; it is a curated record of the kind of commercial work JungDesign has led.</p>
+      <p>JungDesign’s commercial work is the evidence behind the paintings: clear composition, practical judgement, careful sequencing, a feel for materials and a habit of turning vague problems into usable form.</p>
+      <p>This is not a document dump. Each project is treated as a compact case study: what the problem was, what David/JungDesign did, why it mattered, and what changed because the work was done.</p>
     </div>
   </section>
 
@@ -36,8 +36,8 @@ const pillars = [
   <section class="project-index" id="commercial-projects">
     <div class="project-index-intro">
       <span class="eyebrow">Commercial projects</span>
-      <h2>Environments, rollouts, systems and objects.</h2>
-      <p>These case studies are condensed from David’s project notes into a readable professional archive. They give the JungDesign name weight without distracting from the painting galleries.</p>
+      <h2>Proof of method, not nostalgia.</h2>
+      <p>These projects show David working where design has consequences: live airports, retail rollouts, hospitality deadlines, budgets, safety systems and manufactured products. The point is not to compete with the paintings, but to show the discipline that made them possible.</p>
       <a class="button light" href="/design/montage/">View image montage →</a>
     </div>
     <div class="project-feature-grid">
@@ -46,6 +46,10 @@ const pillars = [
         <span>{project.number} / {project.type}</span>
         <h3>{project.title}</h3>
         <p>{project.summary}</p>
+        <dl class="proof-points">
+          <div><dt>Problem</dt><dd>{project.problem}</dd></div>
+          <div><dt>Outcome</dt><dd>{project.outcome}</dd></div>
+        </dl>
         <i>Read case study →</i>
       </a>)}
     </div>
@@ -63,6 +67,7 @@ const pillars = [
         <span>{project.number} / {project.period}</span>
         <h3>{project.title}</h3>
         <p>{project.problem}</p>
+        <small class="project-outcome">Outcome: {project.outcome}</small>
         <i>Open project →</i>
       </a>)}
     </div>
@@ -72,6 +77,7 @@ const pillars = [
     <span class="eyebrow">How to read this archive</span>
     <h2>Design here means responsibility.</h2>
     <p>Not just styling. Not just management. The recurring JungDesign move is to take responsibility for the whole chain: the object, the setting, the people using it, the money available, the deadline approaching and the detail that must still be right.</p>
+    <p>That is why this section belongs on a painting site. It explains the confidence of the work without over-explaining the paintings themselves.</p>
   </section>
 
   <blockquote>“The paintings don’t leave design behind. They make its instincts visible.”</blockquote>
