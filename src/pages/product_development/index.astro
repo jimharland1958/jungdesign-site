@@ -48,7 +48,7 @@ const productPillars = [
       <a class="montage-preview-card" href="/design/montage/" aria-label="View Product Development image montage">
         <span class="eyebrow">Product image montage</span>
         <div class="montage-preview-grid" aria-hidden="true">
-          {productPreview.map((project)=><img src={project.image} alt="" loading="lazy" decoding="async"/>) }
+          {productPreview.map((project)=><img src={project.slug==='vps-vine-pod-system'?'/images/project-sources/vine-pod-overlay.jpg':project.image} alt="" loading="lazy" decoding="async"/>) }
         </div>
         <strong>View the visual wall →</strong>
       </a>
