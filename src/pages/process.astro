@@ -1,5 +1,80 @@
 ---
-import Layout from '../components/Layout.astro'; import SectionIntro from '../components/SectionIntro.astro'; import ContactCTA from '../components/ContactCTA.astro';
-const notes=[['LOOKING / 01','/images/artworks/BlueTrike1.jpg','Start with the object','A tricycle is also a machine, a memory and a choreography of circles. Careful looking supplies the composition.'],['CROPPING / 02','/images/artworks/Superman1.jpg','Choose the charged edge','The frame can withhold as much as it reveals. A close crop gives familiar material a new pressure.'],['DRAWING / 03','/images/artworks/House1.jpg','Structure before spectacle','Line establishes proportion, rhythm and trust. Detail arrives through patience, not decoration.'],['COLOUR / 04','/images/artworks/OMG1.jpg','Let colour do the talking','Red, yellow and deep blue behave like voices: each has a volume, a pace and a role.']];
+import Layout from '../components/Layout.astro';
+import SectionIntro from '../components/SectionIntro.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import projects from '../data/projects.json';
+
+const featured = projects.slice(0, 5);
+const montagePreview = [
+  projects.find((project)=>project.slug==='vps-vine-pod-system'),
+  projects.find((project)=>project.slug==='air-new-zealand-terminals'),
+  projects.find((project)=>project.slug==='amex-americas-cup-village'),
+  projects.find((project)=>project.slug==='bnz-anz-reimaging'),
+  projects.find((project)=>project.slug==='five-litre-measuring-jug'),
+  projects.find((project)=>project.slug==='hospital-labelling-system')
+].filter(Boolean);
+const pillars = [
+  ['Problem', 'Identify the real friction: use, cost, safety, programme, legibility, manufacture or movement through a place.'],
+  ['Response', 'Turn the brief into something buildable: an object, system, environment, rollout plan or working prototype.'],
+  ['Outcome', 'Hold the practical result in view: clearer use, safer handling, better delivery, lower cost or reliable implementation.'],
+  ['Painting link', 'The same habits now surface in the paintings: structure, edges, sequence, material intelligence and visual nerve.']
+];
 ---
-<Layout title="Project Management — JungDesign"><SectionIntro eyebrow="Project Management 03 / Delivery discipline" title="Project Management" intro="Programmes, people, constraints and delivery held together with design judgement. This page can become a clearer account of David’s project-management method as more archive material is added."/><section class="notes">{notes.map((n,i)=><article class:list={[i%2?'reverse':'']}><div class="note-img"><img src={n[1]} alt="Artwork detail" loading="lazy"/></div><div><b>{n[0]}</b><h2>{n[2]}</h2><p>{n[3]}</p><span class="scribble">project note / replace me</span></div></article>)}</section><ContactCTA/></Layout>
+<Layout title="Project Management — JungDesign" description="David Jung’s JungDesign project-management and design-delivery practice: commercial projects, aviation environments, retail rollouts and disciplined delivery.">
+  <SectionIntro eyebrow="Project Management / Proof" title="David Jung has spent decades making complex design and development projects real." intro="Before painting became the main daily practice, JungDesign was a working design and project-management practice: products, environments, systems, rollouts and commercial problem-solving."/>
+
+  <section class="dev-manifesto">
+    <div class="dev-manifesto-mark">JD</div>
+    <div>
+      <span class="eyebrow">Professional spine</span>
+      <p>JungDesign’s commercial work is the evidence behind the paintings: clear composition, practical judgement, careful sequencing, a feel for materials and a habit of turning vague problems into usable form.</p>
+      <p>This is not a document dump. Each project is treated as a compact case study: what the problem was, what David/JungDesign did, why it mattered, and what changed because the work was done.</p>
+    </div>
+  </section>
+
+  <section class="career-pillars" aria-label="JungDesign project-management capabilities">
+    {pillars.map(([title,copy],index)=><article>
+      <b>{String(index+1).padStart(2,'0')}</b>
+      <h2>{title}</h2>
+      <p>{copy}</p>
+    </article>)}
+  </section>
+
+  <section class="project-index" id="commercial-projects">
+    <div class="project-index-intro">
+      <span class="eyebrow">Commercial projects</span>
+      <h2>Proof of method, not nostalgia.</h2>
+      <p>These projects show David working where design has consequences: live airports, retail rollouts, hospitality deadlines, budgets, safety systems and manufactured products. The point is not to compete with the paintings, but to show the discipline that made them possible.</p>
+      <a class="montage-preview-card" href="/design/montage/" aria-label="View Product Development image montage">
+        <span class="eyebrow">Image montage</span>
+        <div class="montage-preview-grid" aria-hidden="true">
+          {montagePreview.map((project)=><img src={project.image} alt="" loading="lazy" decoding="async"/>) }
+        </div>
+        <strong>View the visual wall →</strong>
+      </a>
+    </div>
+    <div class="project-feature-grid">
+      {featured.map((project)=><a class="project-tile feature" href={`/design/${project.slug}/`}>
+        <figure class="project-source-image"><img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async"/><figcaption>{project.visual.label}</figcaption></figure>
+        <span>{project.number} / {project.type}</span>
+        <h3>{project.title}</h3>
+        <p>{project.summary}</p>
+        <dl class="proof-points">
+          <div><dt>Problem</dt><dd>{project.problem}</dd></div>
+          <div><dt>Outcome</dt><dd>{project.outcome}</dd></div>
+        </dl>
+        <i>Read case study →</i>
+      </a>)}
+    </div>
+  </section>
+
+  <section class="career-spine">
+    <span class="eyebrow">How to read this archive</span>
+    <h2>Design here means responsibility.</h2>
+    <p>Not just styling. Not just management. The recurring JungDesign move is to take responsibility for the whole chain: the object, the setting, the people using it, the money available, the deadline approaching and the detail that must still be right.</p>
+    <p>That is why this section belongs on a painting site. It explains the confidence of the work without over-explaining the paintings themselves.</p>
+  </section>
+
+  <blockquote>“The paintings don’t leave design behind. They make its instincts visible.”</blockquote>
+  <ContactCTA title="A project conversation?" copy="David welcomes selected project-management and development enquiries alongside questions about the paintings."/>
+</Layout>

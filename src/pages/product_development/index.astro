@@ -1,0 +1,28 @@
+---
+import Layout from '../../components/Layout.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
+import projects from '../../data/projects.json';
+
+const productWork = projects.slice(5);
+---
+<Layout title="Product Development — JungDesign" description="David Jung’s JungDesign product-development work: useful objects, safer systems, better mechanisms and practical product thinking.">
+  <section class="project-index product-index">
+    <div class="project-index-intro">
+      <span class="eyebrow">Product development</span>
+      <h2>Useful things, safer systems, better mechanisms.</h2>
+      <p>Across product and system work, the pattern is consistent: define the friction, make the use clearer, and develop a response that can be manufactured, installed, trialled or operated.</p>
+    </div>
+    <div class="project-index-grid compact">
+      {productWork.map((project)=><a class="project-tile text-only" href={`/design/${project.slug}/`}>
+        <figure class="project-source-image"><img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async"/><figcaption>{project.visual.label}</figcaption></figure>
+        <span>{project.number} / {project.period}</span>
+        <h3>{project.title}</h3>
+        <p>{project.problem}</p>
+        <small class="project-outcome">Outcome: {project.outcome}</small>
+        <i>Open project →</i>
+      </a>)}
+    </div>
+  </section>
+
+  <ContactCTA title="A product-development conversation?" copy="David welcomes selected product, system and project enquiries alongside questions about the paintings."/>
+</Layout>
