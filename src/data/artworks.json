@@ -132,18 +132,6 @@
     "alt": "Expressive close-up portrait of a bearded man"
   },
   {
-    "slug": "girls",
-    "title": "The Girls",
-    "image": "/images/artworks/Girls1.jpg",
-    "group": "Family & Memory",
-    "year": "Year unknown",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "Portraiture as affection: poised, observant and direct.",
-    "alt": "Portrait painting of a woman and a girl"
-  },
-  {
     "slug": "lily-at-hamos",
     "title": "Lily at Hamo's",
     "image": "/images/artworks/Lily@Hamos1.jpg",
@@ -156,6 +144,18 @@
     "alt": "Portrait of a child in pink sunglasses in a field"
   },
   {
+    "slug": "girls",
+    "title": "The Girls",
+    "image": "/images/artworks/Girls1.jpg",
+    "group": "Family & Memory",
+    "year": "Year unknown",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "Portraiture as affection: poised, observant and direct.",
+    "alt": "Portrait painting of a woman and a girl"
+  },
+  {
     "slug": "lady",
     "title": "Rabbits",
     "image": "/images/artworks/Lady1.jpg",
@@ -166,6 +166,18 @@
     "availability": "Enquire",
     "note": "A narrative portrait rich with posture, pattern and place.",
     "alt": "Portrait of an older woman seated with newspapers"
+  },
+  {
+    "slug": "bull",
+    "title": "Bull",
+    "image": "/images/artworks/Bull1.jpg",
+    "group": "Surreal/Graphic Works",
+    "year": "Year unknown",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "A spare scene with the charged stillness of a film frame.",
+    "alt": "Painting of a bull below a power pole in a dry field"
   },
   {
     "slug": "mother",
@@ -190,18 +202,6 @@
     "availability": "Enquire",
     "note": "A local streetscape sharpened into sign, silhouette and blue sky.",
     "alt": "Painting of a sunny New Zealand street scene"
-  },
-  {
-    "slug": "bull",
-    "title": "Bull",
-    "image": "/images/artworks/Bull1.jpg",
-    "group": "Surreal/Graphic Works",
-    "year": "Year unknown",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "A spare scene with the charged stillness of a film frame.",
-    "alt": "Painting of a bull below a power pole in a dry field"
   },
   {
     "slug": "jet-plane",
