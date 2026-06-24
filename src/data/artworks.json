@@ -60,6 +60,18 @@
     "alt": "Drawing of golf tees with one red tee"
   },
   {
+    "slug": "jet-plane",
+    "title": "Jet Plane",
+    "image": "/images/artworks/JetPlane1.jpg",
+    "group": "GRAPHIC WORKS",
+    "year": "2019",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "An emblem-like form floats between relic, diagram and imagined machine.",
+    "alt": "Abstract cream wing-like form on a dark background"
+  },
+  {
     "slug": "monday",
     "title": "Monday Morning Meeting",
     "image": "/images/artworks/Monday1.jpg",
@@ -226,18 +238,6 @@
     "availability": "Enquire",
     "note": "A local streetscape sharpened into sign, silhouette and blue sky.",
     "alt": "Painting of a sunny New Zealand street scene"
-  },
-  {
-    "slug": "jet-plane",
-    "title": "Jet Plane",
-    "image": "/images/artworks/JetPlane1.jpg",
-    "group": "GRAPHIC WORKS",
-    "year": "2019",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "An emblem-like form floats between relic, diagram and imagined machine.",
-    "alt": "Abstract cream wing-like form on a dark background"
   },
   {
     "slug": "boat",
