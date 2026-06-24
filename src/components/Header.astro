@@ -2,5 +2,5 @@
 const path = Astro.url.pathname;
 const links=[['/paintings','Paintings'],['/design','Development'],['/process','Process'],['/jungdesign','JungDesign'],['/contact','Contact']];
 ---
-<header><a class="brand" href="/" aria-label="JungDesign home"><img src="/images/jungdesign-logo.jpg" alt="JungDesign"/></a><button class="menu" aria-expanded="false" aria-controls="nav">MENU</button><nav id="nav">{links.map(([href,label],i)=><a href={href} aria-current={path.startsWith(href)?'page':undefined}><b>0{i+1}</b>{label}</a>)}</nav></header>
+<header><a class="brand" href="/" aria-label="JungDesign home"><img src="/images/jungdesign-logo.png" alt="JungDesign"/></a><button class="menu" aria-expanded="false" aria-controls="nav">MENU</button><nav id="nav">{links.map(([href,label],i)=><a href={href} aria-current={path.startsWith(href)?'page':undefined}><b>0{i+1}</b>{label}</a>)}</nav></header>
 <script>const b=document.querySelector('.menu'),n=document.querySelector('#nav');b?.addEventListener('click',()=>{const o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));n?.classList.toggle('open')})</script>
