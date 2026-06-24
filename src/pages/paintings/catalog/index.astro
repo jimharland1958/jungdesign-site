@@ -6,7 +6,7 @@ import artworks from '../../../data/artworks.json';
 const sortedArtworks = [...artworks].sort((a,b)=>a.title.localeCompare(b.title, 'en', {sensitivity:'base'}));
 ---
 <Layout title="Artwork Catalog — David Jung | JungDesign" description="Alphabetical catalog of David Jung artworks with year, medium, size and status.">
-  <SectionIntro eyebrow={`${sortedArtworks.length} works / Alphabetical`} title="Artwork Catalog" intro="A practical archive list of David Jung artworks. Each title links to the artwork detail page, with placeholder fields ready to update as records are confirmed."/>
+  <SectionIntro eyebrow={`${sortedArtworks.length} works / Alphabetical`} title="Artwork Catalog" intro="A list of David's works. Each title links to the work's detail page."/>
 
   <section class="catalog-panel" aria-label="Artwork catalog">
     <div class="catalog-actions">
