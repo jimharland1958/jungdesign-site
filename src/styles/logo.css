@@ -80,6 +80,8 @@ header .brand img{width:100%;height:auto;display:block}
 .art-card.work-barlow .art-image{aspect-ratio:2.05/1}
 .art-card.work-kids-on-court .art-image{aspect-ratio:1.8/1}
 .art-card.work-with-tony .art-image{aspect-ratio:1.48/1}
+.art-card.work-blam-blam{grid-row:span 2}
+.art-card.work-view .art-image{aspect-ratio:1.48/1}
 .art-caption{min-height:112px;align-content:start}
 @media(max-width:800px){.art-card.size-major,.art-card.size-minor,.art-card.size-half,.art-card.size-third,.art-card.size-panorama,.art-card.size-full{grid-column:auto}.art-card .art-image,.art-card.size-third .art-image,.art-card.size-full .art-image{aspect-ratio:4/3}.art-card.show-whole .art-image{aspect-ratio:4/5}.art-card.show-wide .art-image{aspect-ratio:2.18/1}.art-caption{min-height:0}.project-strip,.project-hero,.project-note,.project-plates,.project-index-intro,.project-index-grid,.case-studies{grid-template-columns:1fr}.project-strip,.project-hero-copy,.project-note,.project-plates,.project-index,.case-studies{padding:12vw 6vw}.project-hero-image{min-height:70vh}.project-plates figure:nth-child(even),.project-plates figure:nth-child(odd),.project-tile:nth-child(even),.project-tile:nth-child(odd){transform:none}.case-study-list article{grid-template-columns:1fr}.case-study-list p{grid-column:1}}
 

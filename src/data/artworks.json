@@ -108,6 +108,18 @@
     "alt": "David Jung seated beside a large painting of Tony leaning through a car window"
   },
   {
+    "slug": "view",
+    "title": "View",
+    "image": "/images/artworks/View1.jpg",
+    "group": "Surreal/Graphic Works",
+    "year": "Year unknown",
+    "medium": "Medium to be confirmed",
+    "dimensions": "Dimensions to be confirmed",
+    "availability": "Enquire",
+    "note": "A view through a view: architecture, reflection and framing compressed into one quiet study.",
+    "alt": "Painting of neighbouring rooftops seen through a long horizontal window"
+  },
+  {
     "slug": "self",
     "title": "Self",
     "image": "/images/artworks/Self1.jpg",
@@ -214,18 +226,6 @@
     "availability": "Enquire",
     "note": "An emblem-like form floats between relic, diagram and imagined machine.",
     "alt": "Abstract cream wing-like form on a dark background"
-  },
-  {
-    "slug": "view",
-    "title": "View",
-    "image": "/images/artworks/View1.jpg",
-    "group": "Surreal/Graphic Works",
-    "year": "Year unknown",
-    "medium": "Medium to be confirmed",
-    "dimensions": "Dimensions to be confirmed",
-    "availability": "Enquire",
-    "note": "A view through a view: architecture, reflection and framing compressed into one quiet study.",
-    "alt": "Painting of neighbouring rooftops seen through a long horizontal window"
   },
   {
     "slug": "boat",

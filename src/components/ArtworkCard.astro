@@ -8,6 +8,7 @@ const specialSizes={
   'boat':'full',
   'blam-blam':'half',
   'with-tony':'half',
+  'view':'half',
   'lady':'half',
   'bull':'half',
   'lily-at-hamos':'half',
@@ -18,7 +19,7 @@ const specialSizes={
   'kids-on-court':'full',
   'tony-king':'minor'
 };
-const size=specialSizes[art.slug]??(art.slug==='view'?'third':rhythm[index%rhythm.length]);
+const size=specialSizes[art.slug]??rhythm[index%rhythm.length];
 const preserveFull=['buzzy-bee','falcon','blam-blam','with-tony','barlow','kids-on-court','tony-king'].includes(art.slug);
 ---
 <article class:list={['art-card',`work-${art.slug}`,`size-${size}`,['lady','bull'].includes(art.slug)&&'show-whole',art.slug==='mother'&&'show-wide',preserveFull&&'preserve-full']}><a href={`/paintings/${art.slug}/`}><div class="art-image"><img src={art.image} alt={art.alt} loading={priority?'eager':'lazy'} decoding="async"/></div><div class="art-caption"><span>{String(index+1).padStart(2,'0')} / {art.group}</span><h2>{art.title}</h2><i>View work ↗</i></div></a></article>
